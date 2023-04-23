@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "reignitedutilites:item/redstone_gear"
+    }
+}

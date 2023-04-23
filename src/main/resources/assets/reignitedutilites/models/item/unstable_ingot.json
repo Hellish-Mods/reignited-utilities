@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "reignitedutilites:item/unstable_ingot_animation",
+        "layer1": "reignitedutilites:item/stable_ingot"
+    }
+}

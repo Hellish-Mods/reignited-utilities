@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "reignitedutilites:1_compressed_netherrack"
+    }
+  },
+  "result": {
+    "item": "reignitedutilites:2_compressed_netherrack"
+  }
+}

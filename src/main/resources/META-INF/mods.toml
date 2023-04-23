@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+
+license="MIT"
+issueTrackerURL="https://github.com/Hellish-Mods/reignited-utilites/issues"
+
+[[mods]]
+modId="reignitedutilites"
+version="${file.jarVersion}"
+
+displayName="Reignited Utilites"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/reignited-utilites"
+logoFile="pack.png"
+
+authors="Hellish Mods & Modern Modpacks"
+credits="""
+G_cat (Coding)
+"""
+
+description="TODO: add"
+
+[[dependencies.reignitedutilites]]
+    modId="forge"
+    mandatory=true
+
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.reignitedutilites]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
