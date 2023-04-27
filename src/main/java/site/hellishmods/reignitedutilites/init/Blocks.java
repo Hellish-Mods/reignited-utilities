@@ -6,23 +6,22 @@ import java.util.stream.IntStream;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
-import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilites.reignitedutilites;
-import site.hellishmods.reignitedutilites.lib.GPData;
 import site.hellishmods.reignitedutilites.lib.blocks.CompressedBlock;
+import site.hellishmods.reignitedutilites.lib.blocks.GPProducingBlock;
+import site.hellishmods.reignitedutilites.lib.tileentities.CreativeMillTile;
+import site.hellishmods.reignitedutilites.lib.tileentities.DragonEggMillTile;
+import site.hellishmods.reignitedutilites.lib.tileentities.FireMillTile;
 
 public class Blocks {
-    static public ArrayList<RegistryObject<CompressedBlock>> CompressedBlocks = new ArrayList<>();
+    public static ArrayList<RegistryObject<CompressedBlock>> CompressedBlocks = new ArrayList<>();
 
-    static void initCompressed() { 
+    public static final RegistryObject<Block> FIRE_MILL = reignitedutilites.BLOCKS.register("fire_mill", () -> new GPProducingBlock<FireMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.fire_mill_entity_type)); // TODO: replace properties & texture
+    public static final RegistryObject<Block> CREATIVE_MILL = reignitedutilites.BLOCKS.register("creative_mill", () -> new GPProducingBlock<CreativeMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.creative_mill_entity_type));
+    public static final RegistryObject<Block> DRAGON_EGG_MILL = reignitedutilites.BLOCKS.register("dragon_egg_mill", () -> new GPProducingBlock<DragonEggMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.dragon_egg_mill_entity_type));
+
+    static void initCompressed() {
         HashMap<String, Integer> mats = new HashMap<>();
         mats.put("cobblestone", 8);
         mats.put("dirt", 4);
@@ -39,21 +38,5 @@ public class Blocks {
     }
     public static void init() {
         initCompressed();
-
-        reignitedutilites.BLOCKS.register("creative_mill", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE)) {
-            void addGP(int amount, PlayerEntity player) {
-                if (player.level instanceof ServerWorld) GPData.set(player, GPData.get(player, "o")+amount, "o");
-            }
-
-            @Override
-            public void setPlacedBy(World world, BlockPos pos, BlockState state, LivingEntity entity, ItemStack stack) { // TODO: add on break, fix crystal tooltip and make the data persistant 
-                addGP(10000, (PlayerEntity)entity); // TODO: tooltip on screen
-            }
-            @Override
-            public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity player, boolean willHarvest, FluidState fluid) {
-                addGP(-10000, player);
-                return super.removedByPlayer(state, world, pos, player, willHarvest, fluid);
-            }
-        }); // TODO: replace properties & texture
     }
 }
