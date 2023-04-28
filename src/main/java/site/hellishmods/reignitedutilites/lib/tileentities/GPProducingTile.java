@@ -31,7 +31,7 @@ abstract public class GPProducingTile extends TileEntity implements ITickableTil
         active = false;
     }
 
-    abstract public int getGPOutput();
+    abstract public Float getGPOutput();
     abstract public boolean canGenerate(BlockPos pos, World world);
     
     @Override

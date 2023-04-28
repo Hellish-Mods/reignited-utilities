@@ -7,11 +7,11 @@ import site.hellishmods.reignitedutilites.init.TileEntities;
 
 public class FireMillTile extends GPProducingTile { // TODO: test
     public FireMillTile() {
-        super(TileEntities.dragon_egg_mill_entity_type.get());
+        super(TileEntities.fire_mill_entity_type.get());
     }
 
     @Override
-    public int getGPOutput() {return 4;}
+    public Float getGPOutput() {return 4f;}
     @Override
     public boolean canGenerate(BlockPos pos, World world) {
         return world.getBlockState(pos.below()).getBlock().equals(Blocks.FIRE);

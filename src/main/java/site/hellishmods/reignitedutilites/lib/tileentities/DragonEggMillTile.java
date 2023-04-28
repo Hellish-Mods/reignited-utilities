@@ -11,7 +11,7 @@ public class DragonEggMillTile extends GPProducingTile {
     }
 
     @Override
-    public int getGPOutput() {return 500;}
+    public Float getGPOutput() {return 500f;}
     @Override
     public boolean canGenerate(BlockPos pos, World world) {
         return world.getBlockState(pos.above()).getBlock().equals(Blocks.DRAGON_EGG); // TODO: config option for custom dragon eggs

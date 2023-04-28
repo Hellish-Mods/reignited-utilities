@@ -24,29 +24,29 @@ public class GPData extends WorldSavedData {
         return ServerLifecycleHooks.getCurrentServer().getLevel(World.OVERWORLD).getDataStorage().computeIfAbsent(GPData::new, NAME);
     }
     
-    public static Integer get(String id, String mode) {
-        return getInstance().rawGPData.getCompound(id).getInt(mode);
+    public static Float get(String id, String mode) {
+        return getInstance().rawGPData.getCompound(id).getFloat(mode);
     }
-    private static void set(String id, int ogp, int igp) {
+    private static void set(String id, Float ogp, Float igp) {
         GPData instance = getInstance();
 
         CompoundNBT newData = new CompoundNBT();
-        newData.putInt("i", igp);
-        newData.putInt("o", ogp);
+        newData.putFloat("i", igp);
+        newData.putFloat("o", ogp);
 
         instance.setDirty(false);
         instance.rawGPData.put(id, newData);
         instance.setDirty(true);
     }
-    public static void set(String id, int gp, String mode) {
+    public static void set(String id, Float gp, String mode) {
         if (mode=="o") set(id, gp, get(id, "i"));
         else set(id, get(id, "o"), gp);
     }
     public static void generatePlayerGP(String id) {
         if (getInstance().rawGPData.contains(id)) return;
 
-        set(id, 0, "i");
-        set(id, 0, "o");
+        set(id, 0f, "i");
+        set(id, 0f, "o");
     }
 
     @SubscribeEvent
