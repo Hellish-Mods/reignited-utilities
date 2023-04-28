@@ -5,6 +5,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,10 +20,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import site.hellishmods.reignitedutilites.init.Blocks;
 import site.hellishmods.reignitedutilites.init.Items;
+import site.hellishmods.reignitedutilites.init.TileEntities;
 
 @Mod(reignitedutilites.MOD_ID)
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = reignitedutilites.MOD_ID)
-public class reignitedutilites
+public class reignitedutilites // TODO: add license
 {
     // Consts and vars
     public static final String MOD_ID = "reignitedutilites";
@@ -36,6 +38,7 @@ public class reignitedutilites
     // Registries
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MOD_ID);
+    public static final DeferredRegister<TileEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, MOD_ID);
 
     public reignitedutilites() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus(); // Get event bus
@@ -43,9 +46,11 @@ public class reignitedutilites
         // Register stuff
         Items.init(); // Items
         Blocks.init(); // Blocks
+        TileEntities.init(); // TileEntities
 
         ITEMS.register(bus); // Add item registry to bus
         BLOCKS.register(bus); // Add block registry to bus
+        TILE_ENTITIES.register(bus); // Add tile entity registry to bus
 
         MinecraftForge.EVENT_BUS.register(this); // Register mod
     }
