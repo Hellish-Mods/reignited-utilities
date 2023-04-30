@@ -18,6 +18,6 @@ public class GPDisplayItem extends Item {
     @SubscribeEvent
     public void onTooltip(ItemTooltipEvent e) {
         PlayerEntity player = e.getPlayer();
-        if (player!=null && e.getItemStack().getItem()==this) e.getToolTip().add(new TranslationTextComponent("item."+reignitedutilites.MOD_ID+".gp_display_item.tooltip", GPData.get(e.getPlayer().getStringUUID(), "o"), GPData.get(e.getPlayer().getStringUUID(), "i")));
+        if (player!=null && e.getItemStack().getItem()==this) e.getToolTip().add(new TranslationTextComponent("item."+reignitedutilites.MOD_ID+".gp_display_item.tooltip", Math.round(GPData.get(e.getPlayer().getStringUUID(), "o")*100f)/100f, Math.round(GPData.get(e.getPlayer().getStringUUID(), "i"))));
     }
 }

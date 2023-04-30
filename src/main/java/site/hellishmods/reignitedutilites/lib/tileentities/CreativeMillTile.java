@@ -10,7 +10,7 @@ public class CreativeMillTile extends GPProducingTile {
     }
 
     @Override
-    public Float getGPOutput() {return 10000f;} // TODO: config options for generation amount
+    public Float getGP() {return 10000f;} // TODO: config options for generation amount
     @Override
     public boolean canGenerate(BlockPos pos, World world) {return true;}
 }

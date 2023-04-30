@@ -1,6 +1,6 @@
 package site.hellishmods.reignitedutilites.lib.tileentities;
 
-import net.minecraft.block.Blocks;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import site.hellishmods.reignitedutilites.init.TileEntities;
@@ -11,9 +11,9 @@ public class DragonEggMillTile extends GPProducingTile {
     }
 
     @Override
-    public Float getGPOutput() {return 500f;}
+    public Float getGP() {return 500f;}
     @Override
     public boolean canGenerate(BlockPos pos, World world) {
-        return world.getBlockState(pos.above()).getBlock().equals(Blocks.DRAGON_EGG); // TODO: config option for custom dragon eggs
+        return world.getBlockState(pos.above()).getBlock().asItem().getTags().contains(new ResourceLocation("forge", "dragon_eggs"));
     }
 }
