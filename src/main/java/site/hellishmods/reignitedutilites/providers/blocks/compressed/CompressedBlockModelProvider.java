@@ -1,4 +1,4 @@
-package site.hellishmods.reignitedutilites.providers.compressedBlocks;
+package site.hellishmods.reignitedutilites.providers.blocks.compressed;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;

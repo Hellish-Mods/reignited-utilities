@@ -1,4 +1,4 @@
-package site.hellishmods.reignitedutilites.providers.compressedBlocks;
+package site.hellishmods.reignitedutilites.providers.blocks.compressed;
 
 import java.util.function.Consumer;
 
