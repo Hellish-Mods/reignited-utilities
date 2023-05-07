@@ -17,6 +17,7 @@
 	"item.reignitedutilites.glasscutter": "玻璃切割刀",
 	"item.reignitedutilites.endershard": "末影碎片",
 
+	"block.reignitedutilites.wind_mill": "风力发电机",
 	"item.reignitedutilites.redstone_crystal": "共振红石水晶",
 	"item.reignitedutilites.redstone_gear": "红石齿轮",
 	
@@ -24,6 +25,8 @@
 	"block.reignitedutilites.creative_mill": "创造模式发电机",
 	"block.reignitedutilites.dragon_egg_mill": "龙蛋发电机",
 
+	"block.reignitedutilites.chunk_loading_ward": "区块加载之杖",
+	
 	"item.reignitedutilites.unstable_ingot.tooltip.active": "在%s秒后爆炸",
 	"item.reignitedutilites.unstable_ingot.tooltip.inactive": "错误：除以钻石\n此锭高度不稳定，会在10秒后爆炸。\n在合成界面被关闭或者被丢到地上时也会爆炸。\n这些锭无法堆叠。\n\n-除非你已准备好，否则请勿开始合成-",
 
