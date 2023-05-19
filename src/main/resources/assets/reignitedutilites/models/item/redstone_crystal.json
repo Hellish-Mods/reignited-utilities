@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "reignitedutilites:item/redstone_crystal"
+        "layer0": "reignitedutilities:item/redstone_crystal"
     }
 }

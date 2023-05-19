@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:7_compressed_cobblestone"
+          "name": "reignitedutilities:7_compressed_cobblestone"
         }
       ],
       "conditions": [

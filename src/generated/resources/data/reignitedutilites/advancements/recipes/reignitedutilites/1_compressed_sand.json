@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "reignitedutilites:1_compressed_sand"
+      "reignitedutilities:1_compressed_sand"
     ]
   },
   "criteria": {
@@ -13,7 +13,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "reignitedutilites:1_compressed_sand"
+        "recipe": "reignitedutilities:1_compressed_sand"
       }
     }
   },

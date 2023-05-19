@@ -7,11 +7,11 @@
 	],
 	"key": {
 		"N": {
-			"item": "reignitedutilites:stable_nugget"
+			"item": "reignitedutilities:stable_nugget"
 		}
 	},
 	"result": {
-		"item": "reignitedutilites:stable_ingot",
+		"item": "reignitedutilities:stable_ingot",
 		"count": 1
 	}
 }

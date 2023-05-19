@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
         {
-			"item": "reignitedutilites:endershard"
+			"item": "reignitedutilities:endershard"
 		},
 		{
 			"item": "minecraft:redstone"
@@ -18,7 +18,7 @@
 		}
 	],
 	"result": {
-		"item": "reignitedutilites:redstone_crystal",
+		"item": "reignitedutilities:redstone_crystal",
 		"count": 1
 	}
 }

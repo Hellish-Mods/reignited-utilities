@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "reignitedutilites:unstable_ingot",
-        "reignitedutilites:stable_ingot"
+        "reignitedutilities:unstable_ingot",
+        "reignitedutilities:stable_ingot"
     ]
 }

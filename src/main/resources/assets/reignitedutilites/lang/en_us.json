@@ -1,36 +1,38 @@
 {
-    "itemGroup.reignitedutilites": "Reignited Utilites",
+    "itemGroup.reignitedutilities": "Reignited Utilities",
 	
-	"item.reignitedutilites.unstable_ingot": "Unstable Ingot",
-	"item.reignitedutilites.stable_ingot": "Stable-`Unstable Ingot`",
-	"item.reignitedutilites.stable_nugget": "Stable-`Unstable Nugget`",
+	"item.reignitedutilities.unstable_ingot": "Unstable Ingot",
+	"item.reignitedutilities.stable_ingot": "Stable-`Unstable Ingot`",
+	"item.reignitedutilities.stable_nugget": "Stable-`Unstable Nugget`",
 
-	"block.reignitedutilites.compressed.1": "Compressed",
-	"block.reignitedutilites.compressed.2": "Double Compressed",
-	"block.reignitedutilites.compressed.3": "Triple Compressed",
-	"block.reignitedutilites.compressed.4": "Quadruple Compressed",
-	"block.reignitedutilites.compressed.5": "Quintuple Compressed",
-	"block.reignitedutilites.compressed.6": "Sextuple Compressed",
-	"block.reignitedutilites.compressed.7": "Septuple Compressed",
-	"block.reignitedutilites.compressed.8": "Octuple Compressed",
+	"block.reignitedutilities.compressed.1": "Compressed",
+	"block.reignitedutilities.compressed.2": "Double Compressed",
+	"block.reignitedutilities.compressed.3": "Triple Compressed",
+	"block.reignitedutilities.compressed.4": "Quadruple Compressed",
+	"block.reignitedutilities.compressed.5": "Quintuple Compressed",
+	"block.reignitedutilities.compressed.6": "Sextuple Compressed",
+	"block.reignitedutilities.compressed.7": "Septuple Compressed",
+	"block.reignitedutilities.compressed.8": "Octuple Compressed",
 
-	"item.reignitedutilites.glasscutter": "Glass Cutter",
-	"item.reignitedutilites.endershard": "Ender Shard",
+	"item.reignitedutilities.glasscutter": "Glass Cutter",
+	"item.reignitedutilities.endershard": "Ender Shard",
 
-	"item.reignitedutilites.redstone_crystal": "Resonating Redstone Crystal",
-	"item.reignitedutilites.redstone_gear": "Redstone Gear",
+	"item.reignitedutilities.redstone_crystal": "Resonating Redstone Crystal",
+	"item.reignitedutilities.redstone_gear": "Redstone Gear",
 
-	"block.reignitedutilites.wind_mill": "Wind Mill",
-	"block.reignitedutilites.fire_mill": "Fire Mill",
-	"block.reignitedutilites.creative_mill": "Creative Mill",
-	"block.reignitedutilites.manual_mill": "Manual Mill",
-	"block.reignitedutilites.dragon_egg_mill": "Dragon Egg Mill",
+	"block.reignitedutilities.wind_mill": "Wind Mill",
+	"block.reignitedutilities.fire_mill": "Fire Mill",
+	"block.reignitedutilities.creative_mill": "Creative Mill",
+	"block.reignitedutilities.manual_mill": "Manual Mill",
+	"block.reignitedutilities.dragon_egg_mill": "Dragon Egg Mill",
 
-	"block.reignitedutilites.chunk_loading_ward": "Chunk Loading Ward",
+	"block.reignitedutilities.chunk_loading_ward": "Chunk Loading Ward",
 
-	"item.reignitedutilites.unstable_ingot.tooltip.active": "Explosion in %s",
-	"item.reignitedutilites.unstable_ingot.tooltip.inactive": "ERROR: Divide by diamond\nThis ingot is highly unstable and will explode after 10 seconds.\nWill also explode if the crafting window is closed or the ingot is thrown on the ground.\nAdditionally these ingots do not stack\n\n- Do not craft unless ready -",
+	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
 
-	"item.reignitedutilites.gp_display_item.tooltip": "Grid Power: %d / %d",
-	"block.reignitedutilites.gp_producing.tooltip": "Power Given: %d GP"
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosion in %s",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ERROR: Divide by diamond\nThis ingot is highly unstable and will explode after 10 seconds.\nWill also explode if the crafting window is closed or the ingot is thrown on the ground.\nAdditionally these ingots do not stack\n\n- Do not craft unless ready -",
+
+	"item.reignitedutilities.gp_display_item.tooltip": "Grid Power: %d / %d",
+	"block.reignitedutilities.gp_producing.tooltip": "Power Given: %d GP"
 }

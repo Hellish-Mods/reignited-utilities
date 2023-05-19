@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:fire_mill"
+          "name": "reignitedutilities:fire_mill"
         }
       ],
       "conditions": [

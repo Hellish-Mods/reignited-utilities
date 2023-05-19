@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "reignitedutilites:item/stable_nugget"
+        "layer0": "reignitedutilities:item/stable_nugget"
     }
 }

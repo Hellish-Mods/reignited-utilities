@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:1_compressed_dirt"
+          "name": "reignitedutilities:1_compressed_dirt"
         }
       ],
       "conditions": [

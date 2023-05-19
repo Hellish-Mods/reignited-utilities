@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:dragon_egg_mill"
+          "name": "reignitedutilities:dragon_egg_mill"
         }
       ],
       "conditions": [

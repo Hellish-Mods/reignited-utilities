@@ -1,34 +1,36 @@
 {
-	"item.reignitedutilites.unstable_ingot": "Нестабильный слиток",
-	"item.reignitedutilites.stable_ingot": "Стабильный-`Нестабильный слиток`",
-	"item.reignitedutilites.stable_nugget": "Стабильный-`Нестабильный самородок`",
+	"item.reignitedutilities.unstable_ingot": "Нестабильный слиток",
+	"item.reignitedutilities.stable_ingot": "Стабильный-`Нестабильный слиток`",
+	"item.reignitedutilities.stable_nugget": "Стабильный-`Нестабильный самородок`",
 
-	"block.reignitedutilites.compressed.1": "Сжатый",
-	"block.reignitedutilites.compressed.2": "Вдвое сжатый",
-	"block.reignitedutilites.compressed.3": "Втрое сжатый",
-	"block.reignitedutilites.compressed.4": "Вчетверо сжатый",
-	"block.reignitedutilites.compressed.5": "Впятеро сжатый",
-	"block.reignitedutilites.compressed.6": "Вшестеро сжатый",
-	"block.reignitedutilites.compressed.7": "Всемеро сжатый",
-	"block.reignitedutilites.compressed.8": "Ввосьмеро сжатый",
+	"block.reignitedutilities.compressed.1": "Сжатый",
+	"block.reignitedutilities.compressed.2": "Вдвое сжатый",
+	"block.reignitedutilities.compressed.3": "Втрое сжатый",
+	"block.reignitedutilities.compressed.4": "Вчетверо сжатый",
+	"block.reignitedutilities.compressed.5": "Впятеро сжатый",
+	"block.reignitedutilities.compressed.6": "Вшестеро сжатый",
+	"block.reignitedutilities.compressed.7": "Всемеро сжатый",
+	"block.reignitedutilities.compressed.8": "Ввосьмеро сжатый",
 
-	"item.reignitedutilites.glasscutter": "Стеклорез",
-	"item.reignitedutilites.endershard": "Осколок эндера",
+	"item.reignitedutilities.glasscutter": "Стеклорез",
+	"item.reignitedutilities.endershard": "Осколок эндера",
 
-	"item.reignitedutilites.redstone_crystal": "Резонирующий редстоуновый кристалл",
-	"item.reignitedutilites.redstone_gear": "Редстоуновая шестерня",
+	"item.reignitedutilities.redstone_crystal": "Резонирующий редстоуновый кристалл",
+	"item.reignitedutilities.redstone_gear": "Редстоуновая шестерня",
 
-	"block.reignitedutilites.wind_mill": "Ветряная мельница",
-	"block.reignitedutilites.fire_mill": "Огненная мельница",
-	"block.reignitedutilites.creative_mill": "Креативная мельница",
-	"block.reignitedutilites.manual_mill": "Ручная мельница",
-	"block.reignitedutilites.dragon_egg_mill": "Мельница драконьего яйца",
+	"block.reignitedutilities.wind_mill": "Ветряная мельница",
+	"block.reignitedutilities.fire_mill": "Огненная мельница",
+	"block.reignitedutilities.creative_mill": "Креативная мельница",
+	"block.reignitedutilities.manual_mill": "Ручная мельница",
+	"block.reignitedutilities.dragon_egg_mill": "Мельница драконьего яйца",
 
-	"block.reignitedutilites.chunk_loading_ward": "Жезл загрузки чанков",
+	"block.reignitedutilities.chunk_loading_ward": "Жезл загрузки чанков",
 
-	"item.reignitedutilites.unstable_ingot.tooltip.active": "Взрыв через %s",
-	"item.reignitedutilites.unstable_ingot.tooltip.inactive": "ОШИБКА: Делить на алмаз невозможно\nЭтот слиток очень нестабильный и взорвётся через 10 секунд.\nТакже взорвётся если это окно будет закрыто или слиток будет выброшен на землю.\nЭти слитки не стакаются\n\n- Не создавать если не готовы -",
+	"block.reignitedutilities.slightly_larger_chest": "Немного увеличенный сундук",
 
-	"item.reignitedutilites.gp_display_item.tooltip": "Grid Power: %d / %d",
-	"block.reignitedutilites.gp_producing.tooltip": "Генерация энергии: %d GP"
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "Взрыв через %s",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ОШИБКА: Делить на алмаз невозможно\nЭтот слиток очень нестабильный и взорвётся через 10 секунд.\nТакже взорвётся если это окно будет закрыто или слиток будет выброшен на землю.\nЭти слитки не стакаются\n\n- Не создавать если не готовы -",
+
+	"item.reignitedutilities.gp_display_item.tooltip": "Grid Power: %d / %d",
+	"block.reignitedutilities.gp_producing.tooltip": "Генерация энергии: %d GP"
 }

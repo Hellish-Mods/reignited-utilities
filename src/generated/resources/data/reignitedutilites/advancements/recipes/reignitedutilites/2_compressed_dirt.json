@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "reignitedutilites:2_compressed_dirt"
+      "reignitedutilities:2_compressed_dirt"
     ]
   },
   "criteria": {
@@ -13,7 +13,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "reignitedutilites:2_compressed_dirt"
+        "recipe": "reignitedutilities:2_compressed_dirt"
       }
     }
   },

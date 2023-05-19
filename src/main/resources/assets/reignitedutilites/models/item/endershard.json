@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "reignitedutilites:item/endershard"
+        "layer0": "reignitedutilities:item/endershard"
     }
 }

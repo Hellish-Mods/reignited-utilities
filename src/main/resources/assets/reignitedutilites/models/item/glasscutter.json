@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "reignitedutilites:item/glasscutter"
+        "layer0": "reignitedutilities:item/glasscutter"
     }
 }

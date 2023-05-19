@@ -13,8 +13,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = new Date().format('dd-MM-yyyy-HH-mm-ss')
-group = 'site.hellishmods.reignitedutilites'
-archivesBaseName = 'reignitedutilites'
+group = 'site.hellishmods.reignitedutilities'
+archivesBaseName = 'reignitedutilities'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
@@ -29,7 +29,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                reignitedutilites {
+                reignitedutilities {
                     source sourceSets.main
                 }
             }
@@ -41,7 +41,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                reignitedutilites {
+                reignitedutilities {
                     source sourceSets.main
                 }
             }
@@ -52,10 +52,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'reignitedutilites', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'reignitedutilities', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                reignitedutilites {
+                reignitedutilities {
                     source sourceSets.main
                 }
             }
@@ -75,17 +75,21 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
     implementation fg.deobf("curse.maven:jei-238222:4060770")
+    
+    implementation fg.deobf("curse.maven:cofh_core-69162:4022663")
+    implementation fg.deobf("curse.maven:thermal_foundation-222880:4022666")
+    implementation fg.deobf("curse.maven:thermal_expansion-69163:4063134")
 }
 
 jar {
     manifest {
         attributes([
-            "Specification-Title": "reignitedutilites",
-            "Specification-Vendor": "reignitedutilitesareus",
+            "Specification-Title": "reignitedutilities",
+            "Specification-Vendor": "reignitedutilitiesareus",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"reignitedutilitessareus",
+            "Implementation-Vendor" :"reignitedutilitiessareus",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:wind_mill"
+          "name": "reignitedutilities:wind_mill"
         }
       ],
       "conditions": [

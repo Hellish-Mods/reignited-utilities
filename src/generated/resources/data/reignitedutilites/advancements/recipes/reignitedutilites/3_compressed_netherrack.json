@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "reignitedutilites:3_compressed_netherrack"
+      "reignitedutilities:3_compressed_netherrack"
     ]
   },
   "criteria": {
@@ -13,7 +13,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "reignitedutilites:3_compressed_netherrack"
+        "recipe": "reignitedutilities:3_compressed_netherrack"
       }
     }
   },

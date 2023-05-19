@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:2_compressed_gravel"
+          "name": "reignitedutilities:2_compressed_gravel"
         }
       ],
       "conditions": [

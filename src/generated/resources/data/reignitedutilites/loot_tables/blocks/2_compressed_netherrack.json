@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:2_compressed_netherrack"
+          "name": "reignitedutilities:2_compressed_netherrack"
         }
       ],
       "conditions": [

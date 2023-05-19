@@ -7,10 +7,10 @@
   ],
   "key": {
     "B": {
-      "item": "reignitedutilites:7_compressed_cobblestone"
+      "item": "reignitedutilities:7_compressed_cobblestone"
     }
   },
   "result": {
-    "item": "reignitedutilites:8_compressed_cobblestone"
+    "item": "reignitedutilities:8_compressed_cobblestone"
   }
 }

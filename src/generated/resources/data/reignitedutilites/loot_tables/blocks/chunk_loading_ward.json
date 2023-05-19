@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reignitedutilites:chunk_loading_ward"
+          "name": "reignitedutilities:chunk_loading_ward"
         }
       ],
       "conditions": [
