@@ -1,0 +1,36 @@
+{
+    "itemGroup.reignitedutilities": "更多实用设备：重燃",
+	
+	"item.reignitedutilities.unstable_ingot": "不稳定金属锭",
+	"item.reignitedutilities.stable_ingot": "稳定的不稳定金属锭",
+	"item.reignitedutilities.stable_nugget": "稳定的不稳定金属粒",
+
+	"block.reignitedutilities.compressed.1": "压缩",
+	"block.reignitedutilities.compressed.2": "双重压缩",
+	"block.reignitedutilities.compressed.3": "三重压缩",
+	"block.reignitedutilities.compressed.4": "四重压缩",
+	"block.reignitedutilities.compressed.5": "五重压缩",
+	"block.reignitedutilities.compressed.6": "六重压缩",
+	"block.reignitedutilities.compressed.7": "七重压缩",
+	"block.reignitedutilities.compressed.8": "八重压缩",
+
+	"item.reignitedutilities.glasscutter": "玻璃切割刀",
+	"item.reignitedutilities.endershard": "末影碎片",
+
+	"block.reignitedutilities.wind_mill": "风力发电机",
+	"item.reignitedutilities.redstone_crystal": "共振红石水晶",
+	"item.reignitedutilities.redstone_gear": "红石齿轮",
+	
+	"block.reignitedutilities.fire_mill": "火力发电机",
+	"block.reignitedutilities.creative_mill": "创造模式发电机",
+	"block.reignitedutilities.manual_mill": "手动发电机",
+	"block.reignitedutilities.dragon_egg_mill": "龙蛋发电机",
+
+	"block.reignitedutilities.chunk_loading_ward": "区块加载之杖",
+	
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "在%s秒后爆炸",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "错误：除以钻石\n此锭高度不稳定，会在10秒后爆炸。\n在合成界面被关闭或者被丢到地上时也会爆炸。\n这些锭无法堆叠。\n\n-除非你已准备好，否则请勿开始合成-",
+
+	"item.reignitedutilities.gp_display_item.tooltip": "GP总电量：%d / %d"
+	"block.reignitedutilities.gp_producing.tooltip": "发电量：%d GP"
+}
