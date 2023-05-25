@@ -17,6 +17,7 @@ import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.lib.blocks.CompressedBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPConsumingBlock;
@@ -31,6 +32,8 @@ import site.hellishmods.reignitedutilities.lib.tileentities.WindMillTile;
 public class Blocks {
     public static ArrayList<RegistryObject<CompressedBlock>> CompressedBlocks = new ArrayList<>();
 
+
+    public static final RegistryObject<Block> POLISHED_STONE = reignitedutilities.BLOCKS.register("polished_stone", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE)));
     public static final RegistryObject<Block> WIND_MILL = reignitedutilities.BLOCKS.register("wind_mill", () -> new GPProducingBlock<WindMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.wind_mill_entity_type)); // TODO: replace properties & texture
     public static final RegistryObject<Block> FIRE_MILL = reignitedutilities.BLOCKS.register("fire_mill", () -> new GPProducingBlock<FireMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.fire_mill_entity_type));
     public static final RegistryObject<Block> CREATIVE_MILL = reignitedutilities.BLOCKS.register("creative_mill", () -> new GPProducingBlock<CreativeMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.creative_mill_entity_type));
