@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BBB",
+		"BGB",
+		"BBB"
+	],
+	"key": {
+		"B": {
+			"item": "reignitedutilities:stoneburnt"
+		},
+		"G": {
+			"item": "reignitedutilities:glasscutter"
+		}
+	},
+	"result": {
+		"item": "reignitedutilities:stoneburnt_cross",
+		"count": 8
+	}
+}

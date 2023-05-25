@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CS",
+    "SC"
+  ],
+  "key": {
+    "C": {
+      "item": "reignitedutilities:stoneburnt_cross"
+    },
+    "S": {
+      "item": "reignitedutilities:stoneburnt"
+    }
+  },
+  "result": {
+    "item": "reignitedutilities:truchet",
+    "count": 4
+  }
+}

@@ -29,7 +29,10 @@
 	"block.reignitedutilities.chunk_loading_ward": "Chunk Loading Ward",
 
 	"block.reignitedutilities.polished_stone": "Polished Stone",
-	"block.reignitedutilities.polished_stone.tooltip": "not polish",
+	"block.reignitedutilities.stoneburnt": "Stoneburnt",
+	"block.reignitedutilities.stoneburnt_chiseled": "Chiseled Stoneburnt",
+	"block.reignitedutilities.stoneburnt_cross": "Stoneburnt Cross",
+	"block.reignitedutilities.truchet": "Truchet",
 
 	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
 
