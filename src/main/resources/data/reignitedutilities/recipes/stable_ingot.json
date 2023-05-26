@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"NNN",
+		"NNN",
+		"NNN"
+	],
+	"key": {
+		"N": {
+			"item": "reignitedutilities:stable_nugget"
+		}
+	},
+	"result": {
+		"item": "reignitedutilities:stable_ingot",
+		"count": 1
+	}
+}

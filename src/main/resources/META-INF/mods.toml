@@ -2,34 +2,51 @@ modLoader="javafml"
 loaderVersion="[36,)"
 
 license="MIT"
-issueTrackerURL="https://github.com/Hellish-Mods/reignited-utilites/issues"
+issueTrackerURL="https://github.com/Hellish-Mods/reignited-utilities/issues"
 
 [[mods]]
-modId="reignitedutilites"
+modId="reignitedutilities"
 version="${file.jarVersion}"
 
-displayName="Reignited Utilites"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/reignited-utilites"
+displayName="Reignited utilities"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/reignited-utilities"
 logoFile="pack.png"
 
 authors="Hellish Mods & Modern Modpacks"
 credits="""
 G_cat (Coding)
+Rainbuu (Generic garbage)
+bigbee (Textures)
 """
 
-description="TODO: add"
+description="A port/rewrite/reimagining of Extra Utilities 2 and 1 for 1.16.5"
 
-[[dependencies.reignitedutilites]]
+[[dependencies.reignitedutilities]]
     modId="forge"
     mandatory=true
 
     versionRange="[36,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.reignitedutilites]]
+[[dependencies.reignitedutilities]]
     modId="minecraft"
     mandatory=true
 
     versionRange="[1.16.5,1.17)"
     ordering="NONE"
+    side="BOTH"
+
+[[dependencies.reignitedutilities]]
+    modId="create"
+    mandatory=false
+
+    versionRange=","
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.reignitedutilities]]
+    modId="thermal"
+    mandatory=false
+
+    versionRange=","
+    ordering="AFTER"
     side="BOTH"

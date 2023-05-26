@@ -1,0 +1,13 @@
+{
+    "type": "thermal:sawmill",
+    "ingredient": {
+        "item": "minecraft:ender_pearl"
+    },
+    "result": [
+        {
+            "item": "reignitedutilities:endershard",
+            "count": 8
+        }
+    ],
+    "energy": 5000
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "reignitedutilities:polished_stone"
+  },
+  "result": "reignitedutilities:stoneburnt",
+  "experience": 0.3,
+  "cookingtime": 200
+}

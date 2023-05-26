@@ -1,0 +1,46 @@
+{
+    "itemGroup.reignitedutilities": "Reignited Utilities",
+	
+	"item.reignitedutilities.unstable_ingot": "Unstable Ingot",
+	"item.reignitedutilities.stable_ingot": "Stable-`Unstable Ingot`",
+	"item.reignitedutilities.stable_nugget": "Stable-`Unstable Nugget`",
+
+	"block.reignitedutilities.compressed.1": "Compressed",
+	"block.reignitedutilities.compressed.2": "Double Compressed",
+	"block.reignitedutilities.compressed.3": "Triple Compressed",
+	"block.reignitedutilities.compressed.4": "Quadruple Compressed",
+	"block.reignitedutilities.compressed.5": "Quintuple Compressed",
+	"block.reignitedutilities.compressed.6": "Sextuple Compressed",
+	"block.reignitedutilities.compressed.7": "Septuple Compressed",
+	"block.reignitedutilities.compressed.8": "Octuple Compressed",
+
+	"item.reignitedutilities.glasscutter": "Glass Cutter",
+	"item.reignitedutilities.endershard": "Ender Shard",
+
+	"item.reignitedutilities.redstone_crystal": "Resonating Redstone Crystal",
+	"item.reignitedutilities.redstone_gear": "Redstone Gear",
+
+	"block.reignitedutilities.wind_mill": "Wind Mill",
+	"block.reignitedutilities.fire_mill": "Fire Mill",
+	"block.reignitedutilities.creative_mill": "Creative Mill",
+	"block.reignitedutilities.manual_mill": "Manual Mill",
+	"block.reignitedutilities.dragon_egg_mill": "Dragon Egg Mill",
+
+	"block.reignitedutilities.chunk_loading_ward": "Chunk Loading Ward",
+
+	"block.reignitedutilities.polished_stone": "Polished Stone",
+	"block.reignitedutilities.stoneburnt": "Stoneburnt",
+	"block.reignitedutilities.stoneburnt_chiseled": "Chiseled Stoneburnt",
+	"block.reignitedutilities.stoneburnt_cross": "Stoneburnt Cross",
+	"block.reignitedutilities.truchet": "Truchet",
+
+	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
+
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosion in %s",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ERROR: Divide by diamond\nThis ingot is highly unstable and will explode after 10 seconds.\nWill also explode if the crafting window is closed or the ingot is thrown on the ground.\nAdditionally these ingots do not stack\n\n- Do not craft unless ready -",
+
+	"item.reignitedutilities.gp_display_item.tooltip": "Grid Power: %d / %d",
+	"block.reignitedutilities.gp_producing.tooltip": "Power Given: %d GP"
+
+
+}

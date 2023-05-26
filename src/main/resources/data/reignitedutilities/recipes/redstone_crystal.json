@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+        {
+			"item": "reignitedutilities:endershard"
+		},
+		{
+			"item": "minecraft:redstone"
+		},
+		{
+			"item": "minecraft:redstone"
+		},
+		{
+			"item": "minecraft:redstone"
+		},
+		{
+			"item": "minecraft:redstone"
+		}
+	],
+	"result": {
+		"item": "reignitedutilities:redstone_crystal",
+		"count": 1
+	}
+}

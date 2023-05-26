@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "reignitedutilities:1_compressed_cobblestone"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "reignitedutilities:3_compressed_dirt"
+    }
+  },
+  "result": {
+    "item": "reignitedutilities:4_compressed_dirt"
+  }
+}
