@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.items.SickleTier;
+import site.hellishmods.reignitedutilities.lib.items.SunCrystalItem;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.lib.items.GPDisplayItem;
 import site.hellishmods.reignitedutilities.lib.items.UnstableIngot;
@@ -40,6 +41,8 @@ public class Items {
         reignitedutilities.ITEMS.register("gold_sickle", () -> new SwordItem(SickleTier.IRON, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
         reignitedutilities.ITEMS.register("diamond_sickle", () -> new SwordItem(SickleTier.DIAMOND, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
         reignitedutilities.ITEMS.register("netherite_sickle", () -> new SwordItem(SickleTier.NETHERITE, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
+
+        reignitedutilities.ITEMS.register("sun_crystal", () -> new SunCrystalItem());
 
         reignitedutilities.ITEMS.register("redstone_crystal", () -> new GPDisplayItem());
         reignitedutilities.ITEMS.register("redstone_gear", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)));

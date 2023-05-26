@@ -19,6 +19,7 @@ public class ReignitedItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         ArrayList<String> exceptions = new ArrayList<>();
         exceptions.add("unstable_ingot");
+        exceptions.add("sun_crystal");
 
         ForgeRegistries.ITEMS.getValues().stream().filter(item -> item.getRegistryName().getNamespace().equals(reignitedutilities.MOD_ID)).forEach(i -> {
             String name = i.getRegistryName().getPath();

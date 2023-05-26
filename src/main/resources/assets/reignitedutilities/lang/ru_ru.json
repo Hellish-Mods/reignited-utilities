@@ -39,6 +39,8 @@
 	"block.reignitedutilities.stoneburnt_cross": "Крестовой обожжённый камень",
 	"block.reignitedutilities.truchet": "Плитка Труше",
 
+	"item.reignitedutilities.sun_crystal": "Солнечный кристалл",
+
 	"block.reignitedutilities.slightly_larger_chest": "Немного увеличенный сундук",
 
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Взрыв через %s",
