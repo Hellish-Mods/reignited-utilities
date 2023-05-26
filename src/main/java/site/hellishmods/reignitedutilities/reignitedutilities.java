@@ -80,8 +80,6 @@ public class reignitedutilities // TODO: add license
             CompressedBlock b = rb.get();
 
             if (ModList.get().isLoaded("thermal")) {
-                System.out.println("sus!!");
-    
                 List<Ingredient> inputitems = new ArrayList<>();
                 inputitems.add(Ingredient.of(new ItemStack(b.asItem(), 9)));
                 List<ItemStack> outputitems = new ArrayList<>();
