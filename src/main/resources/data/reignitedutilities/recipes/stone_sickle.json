@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" CC",
+		"  C",
+		"SCC"
+	],
+	"key": {
+		"C": {
+			"tag": "forge:cobblestone"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "reignitedutilities:stone_sickle",
+		"count": 1
+	}
+}

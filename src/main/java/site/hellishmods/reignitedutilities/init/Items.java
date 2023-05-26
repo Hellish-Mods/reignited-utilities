@@ -34,7 +34,10 @@ public class Items {
         });
         reignitedutilities.ITEMS.register("endershard", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB).stacksTo(8)));
 
-        reignitedutilities.ITEMS.register("sickle", () -> new SwordItem(SickleTier.IRON, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
+        reignitedutilities.ITEMS.register("wood_sickle", () -> new SwordItem(SickleTier.IRON, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
+        reignitedutilities.ITEMS.register("stone_sickle", () -> new SwordItem(SickleTier.IRON, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
+        reignitedutilities.ITEMS.register("iron_sickle", () -> new SwordItem(SickleTier.IRON, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
+        reignitedutilities.ITEMS.register("gold_sickle", () -> new SwordItem(SickleTier.IRON, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
         reignitedutilities.ITEMS.register("diamond_sickle", () -> new SwordItem(SickleTier.DIAMOND, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
         reignitedutilities.ITEMS.register("netherite_sickle", () -> new SwordItem(SickleTier.NETHERITE, 0, 0f, new Item.Properties().tab(reignitedutilities.TAB)));
 

@@ -28,7 +28,10 @@
 
 	"block.reignitedutilities.chunk_loading_ward": "Chunk Loading Ward",
 
-	"item.reignitedutilities.sickle": "Sickle",
+	"item.reignitedutilities.wood_sickle": "Wooden Sickle",
+	"item.reignitedutilities.stone_sickle": "Stone Sickle",
+	"item.reignitedutilities.iron_sickle": "Iron Sickle",
+	"item.reignitedutilities.gold_sickle": "Gold Sickle",
 	"item.reignitedutilities.diamond_sickle": "Diamond Sickle",
 	"item.reignitedutilities.netherite_sickle": "Netherite Sickle",
 
@@ -45,6 +48,4 @@
 
 	"item.reignitedutilities.gp_display_item.tooltip": "Grid Power: %d / %d",
 	"block.reignitedutilities.gp_producing.tooltip": "Power Given: %d GP"
-
-
 }
