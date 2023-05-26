@@ -7,7 +7,7 @@ public enum SickleTier implements IItemTier {
 
     WOOD(95, 1f, 5.5f),
     STONE(186, 1.1f, 6.5f),
-    IRON(275, 1.2f, 7.5f),
+    IRON(275, 1f, 7.5f),
     GOLD(68, 1.1f, 5.5f),
     DIAMOND(1717, 1.3f, 8.5f),
     NETHERITE(2234, 1.4f, 9.5f);
