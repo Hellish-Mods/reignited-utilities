@@ -28,6 +28,10 @@
 
 	"block.reignitedutilities.chunk_loading_ward": "Chunk Loading Ward",
 
+	"item.reignitedutilities.sickle": "Sickle",
+	"item.reignitedutilities.diamond_sickle": "Diamond Sickle",
+	"item.reignitedutilities.netherite_sickle": "Netherite Sickle",
+
 	"block.reignitedutilities.polished_stone": "Polished Stone",
 	"block.reignitedutilities.stoneburnt": "Stoneburnt",
 	"block.reignitedutilities.stoneburnt_chiseled": "Chiseled Stoneburnt",
