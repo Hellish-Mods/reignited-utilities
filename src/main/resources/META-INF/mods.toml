@@ -8,15 +8,16 @@ issueTrackerURL="https://github.com/Hellish-Mods/reignited-utilities/issues"
 modId="reignitedutilities"
 version="${file.jarVersion}"
 
-displayName="Reignited utilities"
+displayName="Reignited Utilities"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/reignited-utilities"
 logoFile="pack.png"
 
 authors="Hellish Mods & Modern Modpacks"
 credits="""
-G_cat (Coding)
-Rainbuu (Generic garbage)
+G_cat (Coding, Russian translation)
+Rainbuu (Coding, textures)
 bigbee (Textures)
+Kasualix (Simplified Chinese translation)
 """
 
 description="A port/rewrite/reimagining of Extra Utilities 2 and 1 for 1.16.5"
