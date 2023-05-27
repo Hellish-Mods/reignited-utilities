@@ -27,12 +27,21 @@
 	"block.reignitedutilities.dragon_egg_mill": "龙蛋发电机",
 
 	"block.reignitedutilities.chunk_loading_ward": "区块加载之杖",
+
+	"item.reignitedutilities.wood_sickle": "木镰刀",
+	"item.reignitedutilities.stone_sickle": "石镰刀",
+	"item.reignitedutilities.iron_sickle": "铁镰刀",
+	"item.reignitedutilities.gold_sickle": "金镰刀",
+	"item.reignitedutilities.diamond_sickle": "钻石镰刀",
+	"item.reignitedutilities.netherite_sickle": "下界合金镰刀",
 	
 	"block.reignitedutilities.polished_stone": "磨制石头",
 	"block.reignitedutilities.stoneburnt": "烧制石头",
 	"block.reignitedutilities.stoneburnt_chiseled": "雕刻烧制石头",
 	"block.reignitedutilities.stoneburnt_cross": "烧制石架",
 	"block.reignitedutilities.truchet": "錾制石头",
+
+	"item.reignitedutilities.sun_crystal": "太阳晶体",
 
 	"block.reignitedutilities.slightly_larger_chest": "稍大的箱子",
 	
