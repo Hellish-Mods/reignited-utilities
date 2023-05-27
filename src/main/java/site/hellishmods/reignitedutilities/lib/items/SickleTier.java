@@ -5,26 +5,25 @@ import net.minecraft.item.crafting.Ingredient;
 
 public enum SickleTier implements IItemTier {
 
-    WOOD(95, 1f, 5.5f),
-    STONE(186, 1.1f, 6.5f),
-    IRON(275, 1f, 7.5f),
-    GOLD(68, 1.1f, 5.5f),
-    DIAMOND(1717, 1.3f, 8.5f),
-    NETHERITE(2234, 1.4f, 9.5f);
+    WOOD(95, 1f, 5.5f, 3),
+    STONE(186, 1.1f, 6.5f, 5),
+    IRON(275, 1f, 7.5f, 7),
+    GOLD(68, 1.1f, 5.5f, 3),
+    DIAMOND(1717, 1.3f, 8.5f, 9),
+    NETHERITE(2234, 1.4f, 9.5f, 11);
 
-    private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
     private final float attackDamage;
-    private final int enchantability;
 
-    SickleTier(int maxUses, float efficiency, float attackDamage) {
+    public final int diameter;
+
+    SickleTier(int maxUses, float efficiency, float attackDamage, int diameter) {
         this.maxUses = maxUses;
         this.efficiency = efficiency;
         this.attackDamage = attackDamage;
 
-        this.harvestLevel = 0;
-        this.enchantability = 10;
+        this.diameter = diameter;
     }
 
     @Override
@@ -44,12 +43,12 @@ public enum SickleTier implements IItemTier {
 
     @Override
     public int getLevel() {
-        return harvestLevel;
+        return 0;
     }
 
     @Override
     public int getEnchantmentValue() {
-        return enchantability;
+        return 10;
     }
 
     @Override

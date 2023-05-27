@@ -4,12 +4,12 @@ import java.util.Random;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.items.SickleTier;
 import site.hellishmods.reignitedutilities.lib.items.SunCrystalItem;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.lib.items.GPDisplayItem;
+import site.hellishmods.reignitedutilities.lib.items.SickleItem;
 import site.hellishmods.reignitedutilities.lib.items.UnstableIngot;
 
 public class Items {
@@ -35,12 +35,12 @@ public class Items {
         });
         reignitedutilities.ITEMS.register("endershard", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB).stacksTo(8)));
 
-        reignitedutilities.ITEMS.register("wood_sickle", () -> new SwordItem(SickleTier.WOOD, 0, -3f, new Item.Properties().tab(reignitedutilities.TAB)));
-        reignitedutilities.ITEMS.register("stone_sickle", () -> new SwordItem(SickleTier.STONE, 0, -2.9f, new Item.Properties().tab(reignitedutilities.TAB)));
-        reignitedutilities.ITEMS.register("iron_sickle", () -> new SwordItem(SickleTier.IRON, 0, -2.9f, new Item.Properties().tab(reignitedutilities.TAB)));
-        reignitedutilities.ITEMS.register("gold_sickle", () -> new SwordItem(SickleTier.GOLD, 0, -2.7f, new Item.Properties().tab(reignitedutilities.TAB)));
-        reignitedutilities.ITEMS.register("diamond_sickle", () -> new SwordItem(SickleTier.DIAMOND, 0, -2.8f, new Item.Properties().tab(reignitedutilities.TAB)));
-        reignitedutilities.ITEMS.register("netherite_sickle", () -> new SwordItem(SickleTier.NETHERITE, 0, -2.7f, new Item.Properties().tab(reignitedutilities.TAB)));
+        reignitedutilities.ITEMS.register("wood_sickle", () -> new SickleItem(SickleTier.WOOD, 1));
+        reignitedutilities.ITEMS.register("stone_sickle", () -> new SickleItem(SickleTier.STONE, 1.1f));
+        reignitedutilities.ITEMS.register("iron_sickle", () -> new SickleItem(SickleTier.IRON, 1.1f));
+        reignitedutilities.ITEMS.register("gold_sickle", () -> new SickleItem(SickleTier.GOLD, 1.3f));
+        reignitedutilities.ITEMS.register("diamond_sickle", () -> new SickleItem(SickleTier.DIAMOND, 1.2f));
+        reignitedutilities.ITEMS.register("netherite_sickle", () -> new SickleItem(SickleTier.NETHERITE, 1.3f));
 
         reignitedutilities.ITEMS.register("sun_crystal", () -> new SunCrystalItem());
 
