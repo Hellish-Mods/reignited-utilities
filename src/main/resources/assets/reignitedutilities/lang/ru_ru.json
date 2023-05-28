@@ -26,6 +26,21 @@
 
 	"block.reignitedutilities.chunk_loading_ward": "Жезл загрузки чанков",
 
+	"item.reignitedutilities.wood_sickle": "Деревянный серп",
+	"item.reignitedutilities.stone_sickle": "Каменный серп",
+	"item.reignitedutilities.iron_sickle": "Железный серп",
+	"item.reignitedutilities.gold_sickle": "Золотой серп",
+	"item.reignitedutilities.diamond_sickle": "Алмазный серп",
+	"item.reignitedutilities.netherite_sickle": "Незеритовый серп",
+
+	"block.reignitedutilities.polished_stone": "Полированный камень",
+	"block.reignitedutilities.stoneburnt": "Обожжённый камень",
+	"block.reignitedutilities.stoneburnt_chiseled": "Резной обожжённый камень",
+	"block.reignitedutilities.stoneburnt_cross": "Крестовой обожжённый камень",
+	"block.reignitedutilities.truchet": "Плитка Труше",
+
+	"item.reignitedutilities.sun_crystal": "Солнечный кристалл",
+
 	"block.reignitedutilities.slightly_larger_chest": "Немного увеличенный сундук",
 
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Взрыв через %s",

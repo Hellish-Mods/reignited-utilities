@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecart:diamond"
+		},
+        {
+			"item": "minecraft:glowstone"
+		},
+		{
+			"item": "minecraft:glowstone"
+		},
+		{
+			"item": "minecraft:glowstone"
+		},
+		{
+			"item": "minecraft:glowstone"
+		}
+	],
+	"result": {
+		"item": "reignitedutilities:sun_crystal",
+		"count": 1
+	}
+}
