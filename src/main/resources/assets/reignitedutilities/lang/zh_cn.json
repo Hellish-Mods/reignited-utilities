@@ -42,7 +42,8 @@
 	"block.reignitedutilities.truchet": "錾制石头",
 
 	"item.reignitedutilities.sun_crystal": "太阳晶体",
-
+        "item.reignitedutilities.sun_crystal.description": "先制作一个空的太阳水晶，然后把水晶扔到阳光直射的地面上。",
+	
 	"block.reignitedutilities.slightly_larger_chest": "稍大的箱子",
 	
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "在%s秒后爆炸",
