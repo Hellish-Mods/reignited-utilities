@@ -2,6 +2,8 @@ package site.hellishmods.reignitedutilities.providers.items;
 
 import java.util.ArrayList;
 
+import com.google.common.collect.Lists;
+
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.BlockItem;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -17,9 +19,11 @@ public class ReignitedItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        ArrayList<String> exceptions = new ArrayList<>();
-        exceptions.add("unstable_ingot");
-        exceptions.add("sun_crystal");
+        ArrayList<String> exceptions = Lists.newArrayList(
+            "unstable_ingot",
+            "sun_crystal"
+        );
+        
 
         ForgeRegistries.ITEMS.getValues().stream().filter(item -> item.getRegistryName().getNamespace().equals(reignitedutilities.MOD_ID)).forEach(i -> {
             String name = i.getRegistryName().getPath();

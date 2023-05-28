@@ -69,12 +69,17 @@ repositories {
         name "cursemaven"
         url "https://cursemaven.com"
     }
+    maven {
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
-    implementation fg.deobf("curse.maven:jei-238222:4060770")
+    compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
     
     implementation fg.deobf("curse.maven:cofh_core-69162:4022663")
     implementation fg.deobf("curse.maven:thermal_foundation-222880:4022666")

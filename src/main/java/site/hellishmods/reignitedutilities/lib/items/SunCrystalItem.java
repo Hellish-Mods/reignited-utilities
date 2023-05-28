@@ -9,7 +9,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 
-public class SunCrystalItem extends Item { // TODO: add JEI description
+public class SunCrystalItem extends Item {
     public SunCrystalItem() {
         super(new Item.Properties().tab(reignitedutilities.TAB).stacksTo(1).defaultDurability(250));
     }

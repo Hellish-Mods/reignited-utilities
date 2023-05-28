@@ -14,6 +14,7 @@ import site.hellishmods.reignitedutilities.lib.items.UnstableIngot;
 
 public class Items {
     public static RegistryObject<Item> unstableIngot;
+    public static RegistryObject<Item> sunCrystal;
 
     public static void init() {
         unstableIngot = reignitedutilities.ITEMS.register("unstable_ingot", () -> new UnstableIngot());
@@ -42,7 +43,7 @@ public class Items {
         reignitedutilities.ITEMS.register("diamond_sickle", () -> new SickleItem(SickleTier.DIAMOND, 1.2f));
         reignitedutilities.ITEMS.register("netherite_sickle", () -> new SickleItem(SickleTier.NETHERITE, 1.3f));
 
-        reignitedutilities.ITEMS.register("sun_crystal", () -> new SunCrystalItem());
+        sunCrystal = reignitedutilities.ITEMS.register("sun_crystal", () -> new SunCrystalItem());
 
         reignitedutilities.ITEMS.register("redstone_crystal", () -> new GPDisplayItem());
         reignitedutilities.ITEMS.register("redstone_gear", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)));
