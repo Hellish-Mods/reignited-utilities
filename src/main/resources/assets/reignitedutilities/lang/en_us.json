@@ -20,6 +20,8 @@
 	"item.reignitedutilities.redstone_crystal": "Resonating Redstone Crystal",
 	"item.reignitedutilities.redstone_gear": "Redstone Gear",
 
+	"block.reignitedutilities.solar_panel": "Solar Panel",
+	"block.reignitedutilities.lunar_panel": "Lunar Panel",
 	"block.reignitedutilities.wind_mill": "Wind Mill",
 	"block.reignitedutilities.fire_mill": "Fire Mill",
 	"block.reignitedutilities.creative_mill": "Creative Mill",

@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		" G ",
+		"FOF"
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"F": {
+			"item": "minecraft:feather"
+		},
+		"O": {
+			"item": "minecraft:obsidian"
+		}
+	},
+	"result": {
+		"item": "reignitedutilities:angel_block",
+		"count": 1
+	}
+}

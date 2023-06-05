@@ -28,6 +28,9 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+
             mods {
                 reignitedutilities {
                     source sourceSets.main
@@ -73,6 +76,7 @@ repositories {
         name = "Progwml6 maven"
         url = "https://dvs1.progwml6.com/files/maven/"
     }
+    maven { url 'https://maven.blamejared.com' }
 }
 
 dependencies {
@@ -80,6 +84,9 @@ dependencies {
 
     compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
+
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.2:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.2")
     
     implementation fg.deobf("curse.maven:cofh_core-69162:4022663")
     implementation fg.deobf("curse.maven:thermal_foundation-222880:4022666")

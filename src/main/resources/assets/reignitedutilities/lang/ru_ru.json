@@ -18,6 +18,8 @@
 	"item.reignitedutilities.redstone_crystal": "Резонирующий редстоуновый кристалл",
 	"item.reignitedutilities.redstone_gear": "Редстоуновая шестерня",
 
+	"block.reignitedutilities.solar_panel": "Солнечная панель",
+	"block.reignitedutilities.lunar_panel": "Лунная панель",
 	"block.reignitedutilities.wind_mill": "Ветряная мельница",
 	"block.reignitedutilities.fire_mill": "Огненная мельница",
 	"block.reignitedutilities.creative_mill": "Креативная мельница",
