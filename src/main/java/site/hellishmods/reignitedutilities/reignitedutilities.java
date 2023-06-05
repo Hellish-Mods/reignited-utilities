@@ -29,6 +29,7 @@ import site.hellishmods.reignitedutilities.init.Blocks;
 import site.hellishmods.reignitedutilities.init.Items;
 import site.hellishmods.reignitedutilities.init.TileEntities;
 import site.hellishmods.reignitedutilities.lib.blocks.CompressedBlock;
+import site.hellishmods.reignitedutilities.lib.items.AngelBlockItem;
 
 @Mod(reignitedutilities.MOD_ID)
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = reignitedutilities.MOD_ID)
@@ -66,13 +67,15 @@ public class reignitedutilities // TODO: add license
     @SubscribeEvent
     public static void onItemRegistry(RegistryEvent.Register<Item> e) {
         for (RegistryObject<Block> block : BLOCKS.getEntries()) {
-            e.getRegistry().register(new BlockItem(block.get(), new Item.Properties().tab(TAB)) {
-                @Override
-                public ITextComponent getName(ItemStack i) {
-                    if (FMLEnvironment.dist!=Dist.CLIENT) return null;
-                    return block.get().getName();
-                }
-            }.setRegistryName(block.get().getRegistryName()));
+            if (!block.equals(Blocks.ANGEL_BLOCK))
+                e.getRegistry().register(new BlockItem(block.get(), new Item.Properties().tab(TAB)) {
+                    @Override
+                    public ITextComponent getName(ItemStack i) {
+                        if (FMLEnvironment.dist!=Dist.CLIENT) return null;
+                        return block.get().getName();
+                    }
+                }.setRegistryName(block.get().getRegistryName()));
+            else e.getRegistry().register(new AngelBlockItem().setRegistryName(block.get().getRegistryName()));
         }
 
         // TODO: FIX!!

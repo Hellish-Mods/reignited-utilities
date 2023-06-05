@@ -44,6 +44,7 @@
 	"item.reignitedutilities.sun_crystal": "Sun Crystal",
 	"item.reignitedutilities.sun_crystal.description": "Craft an empty Sun Crystal first, then throw the crystal on the ground in direct sunlight.",
 
+	"block.reignitedutilities.angel_block": "Angel Block",
 	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
 
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosion in %s",

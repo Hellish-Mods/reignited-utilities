@@ -31,6 +31,7 @@ import site.hellishmods.reignitedutilities.lib.tileentities.WindMillTile;
 public class Blocks {
     public static ArrayList<RegistryObject<CompressedBlock>> CompressedBlocks = new ArrayList<>();
 
+    public static final RegistryObject<Block> ANGEL_BLOCK = reignitedutilities.BLOCKS.register("angel_block", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE)));
 
     public static final RegistryObject<Block> POLISHED_STONE = reignitedutilities.BLOCKS.register("polished_stone", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE)));
     public static final RegistryObject<Block> STONEBURNT = reignitedutilities.BLOCKS.register("stoneburnt", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE)));
