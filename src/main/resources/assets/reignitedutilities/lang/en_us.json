@@ -1,5 +1,7 @@
 {
     "itemGroup.reignitedutilities": "Reignited Utilities",
+
+	"item.reignitedutilities.manual": "Reignited Utilities Manual",
 	
 	"item.reignitedutilities.unstable_ingot": "Unstable Ingot",
 	"item.reignitedutilities.stable_ingot": "Stable-`Unstable Ingot`",
