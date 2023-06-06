@@ -13,7 +13,7 @@
 			"item": "minecraft:feather"
 		},
 		"O": {
-			"item": "minecraft:obsidian"
+			"tag": "reignitedutilities:angel_block_obsidian"
 		}
 	},
 	"result": {
