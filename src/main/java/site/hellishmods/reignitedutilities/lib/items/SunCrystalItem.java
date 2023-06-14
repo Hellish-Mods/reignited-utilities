@@ -36,7 +36,7 @@ public class SunCrystalItem extends Item {
         @Override
         public void tick() {
             super.tick();
-            if(world.isDay() && !world.isRaining() && world.canSeeSky(new BlockPos(position()))) stack.setDamageValue(stack.getDamageValue()-1);
+            if(world.isDay() && !world.isRaining() && world.canSeeSky(new BlockPos(position().x, position().y+1, position().z))) stack.setDamageValue(stack.getDamageValue()-1);
         }
     }
     

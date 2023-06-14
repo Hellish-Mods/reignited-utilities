@@ -1,4 +1,6 @@
 {
+	"item.reignitedutilities.manual": "Руководство Reignited Utilities",
+
 	"item.reignitedutilities.unstable_ingot": "Нестабильный слиток",
 	"item.reignitedutilities.stable_ingot": "Стабильный-`Нестабильный слиток`",
 	"item.reignitedutilities.stable_nugget": "Стабильный-`Нестабильный самородок`",
@@ -18,6 +20,8 @@
 	"item.reignitedutilities.redstone_crystal": "Резонирующий редстоуновый кристалл",
 	"item.reignitedutilities.redstone_gear": "Редстоуновая шестерня",
 
+	"block.reignitedutilities.solar_panel": "Солнечная панель",
+	"block.reignitedutilities.lunar_panel": "Лунная панель",
 	"block.reignitedutilities.wind_mill": "Ветряная мельница",
 	"block.reignitedutilities.fire_mill": "Огненная мельница",
 	"block.reignitedutilities.creative_mill": "Креативная мельница",
@@ -41,6 +45,7 @@
 
 	"item.reignitedutilities.sun_crystal": "Солнечный кристалл",
 
+	"block.reignitedutilities.angel_block": "Ангельский блок",
 	"block.reignitedutilities.slightly_larger_chest": "Немного увеличенный сундук",
 
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Взрыв через %s",

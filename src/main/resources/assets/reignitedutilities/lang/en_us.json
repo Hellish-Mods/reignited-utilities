@@ -1,5 +1,7 @@
 {
     "itemGroup.reignitedutilities": "Reignited Utilities",
+
+	"item.reignitedutilities.manual": "Reignited Utilities Manual",
 	
 	"item.reignitedutilities.unstable_ingot": "Unstable Ingot",
 	"item.reignitedutilities.stable_ingot": "Stable-`Unstable Ingot`",
@@ -20,6 +22,8 @@
 	"item.reignitedutilities.redstone_crystal": "Resonating Redstone Crystal",
 	"item.reignitedutilities.redstone_gear": "Redstone Gear",
 
+	"block.reignitedutilities.solar_panel": "Solar Panel",
+	"block.reignitedutilities.lunar_panel": "Lunar Panel",
 	"block.reignitedutilities.wind_mill": "Wind Mill",
 	"block.reignitedutilities.fire_mill": "Fire Mill",
 	"block.reignitedutilities.creative_mill": "Creative Mill",
@@ -44,6 +48,7 @@
 	"item.reignitedutilities.sun_crystal": "Sun Crystal",
 	"item.reignitedutilities.sun_crystal.description": "Craft an empty Sun Crystal first, then throw the crystal on the ground in direct sunlight.",
 
+	"block.reignitedutilities.angel_block": "Angel Block",
 	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
 
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosion in %s",

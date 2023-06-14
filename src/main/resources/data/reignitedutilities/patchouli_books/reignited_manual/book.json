@@ -1,0 +1,11 @@
+{
+    "name": "item.reignitedutilities.manual",
+    "landing_text": "",
+
+    "model": "reignitedutilities:manual",
+    "book_texture": "patchouli:textures/gui/book_gray.png",
+    "show_progress": false,
+
+    "creative_tab": "reignitedutilities",
+    "i18n": true
+}

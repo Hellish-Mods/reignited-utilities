@@ -1,5 +1,11 @@
 {
     "type": "create:cutting",
+    "conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
     "ingredients": [
         {
             "item": "minecraft:ender_pearl"

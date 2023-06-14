@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"LLL",
+		"SCS"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:lapis_lazuli"
+		},
+		"S": {
+			"item": "reignitedutilities:polished_stone"
+		},
+		"C": {
+			"item": "reignitedutilities:redstone_crystal"
+		}
+	},
+	"result": {
+		"item": "reignitedutilities:solar_panel",
+		"count": 3
+	}
+}

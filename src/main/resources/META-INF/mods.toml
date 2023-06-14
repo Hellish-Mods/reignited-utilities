@@ -14,8 +14,8 @@ logoFile="pack.png"
 
 authors="Hellish Mods & Modern Modpacks"
 credits="""
-G_cat (Coding, Russian translation)
-Rainbuu (Coding, textures)
+G_cat (Coding, Textures, Russian translation)
+Rainbuu (Coding, Textures)
 bigbee (Textures)
 Kasualix (Simplified Chinese translation)
 """
@@ -35,6 +35,21 @@ description="A port/rewrite/reimagining of Extra Utilities 2 and 1 for 1.16.5"
 
     versionRange="[1.16.5,1.17)"
     ordering="NONE"
+    side="BOTH"
+
+[[dependencies.reignitedutilities]]
+    modId="jei"
+    mandatory=false
+
+    versionRange=","
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.reignitedutilities]]
+    modId="patchouli"
+    mandatory=false
+
+    versionRange=","
+    ordering="AFTER"
     side="BOTH"
 
 [[dependencies.reignitedutilities]]

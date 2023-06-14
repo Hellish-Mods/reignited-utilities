@@ -1,0 +1,5 @@
+{
+    "name": "GP (Grid Power)",
+    "description": "This part of the manual talks about Grid Power, a new wireless and semi-passive type of energy that powers machines withing the reignited ecosystem. Here you will learn how to generate, spend and automate GP.",
+    "icon": "reignitedutilities:redstone_gear"
+}

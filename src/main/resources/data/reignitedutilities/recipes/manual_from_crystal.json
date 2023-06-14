@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "patchouli"
+		}
+	],
+	"ingredients": [
+        {
+			"item": "minecraft:book"
+		},
+		{
+			"item": "reignitedutilities:redstone_crystal"
+		}
+	],
+	"result": {
+        "item": "patchouli:guide_book",
+        "nbt": "{\"patchouli:book\": \"reignitedutilities:reignited_manual\"}"
+    }
+}
