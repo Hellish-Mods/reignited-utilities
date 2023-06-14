@@ -1,5 +1,7 @@
 {
     "itemGroup.reignitedutilities": "更多实用设备：重燃",
+
+	"item.reignitedutilities.manual": "重燃设备手册",
 	
 	"item.reignitedutilities.unstable_ingot": "不稳定金属锭",
 	"item.reignitedutilities.stable_ingot": "稳定的不稳定金属锭",
@@ -20,6 +22,8 @@
 	"item.reignitedutilities.redstone_crystal": "共振红石水晶",
 	"item.reignitedutilities.redstone_gear": "红石齿轮",
 	
+	"block.reignitedutilities.solar_panel": "太阳能面板",
+	"block.reignitedutilities.lunar_panel": "月光面板",
 	"block.reignitedutilities.wind_mill": "风力发电机",
 	"block.reignitedutilities.fire_mill": "火力发电机",
 	"block.reignitedutilities.creative_mill": "创造模式发电机",
@@ -44,6 +48,7 @@
 	"item.reignitedutilities.sun_crystal": "太阳晶体",
         "item.reignitedutilities.sun_crystal.description": "先制作一个空的太阳水晶，然后把水晶扔到阳光直射的地面上。",
 	
+	"block.reignitedutilities.angel_block": "天使方块",
 	"block.reignitedutilities.slightly_larger_chest": "稍大的箱子",
 	
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "在%s秒后爆炸",
