@@ -1,0 +1,10 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "layer":"SOLID",
+        "textures":[
+            "reignitedutilities:block/polished_stone_ctm"
+        ]
+    }
+}
