@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "reignitedutilities:item/biome_marker_bg",
+        "layer1": "reignitedutilities:item/biome_marker_left",
+        "layer2": "reignitedutilities:item/biome_marker_right"
+    }
+}

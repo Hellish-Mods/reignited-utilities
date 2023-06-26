@@ -21,7 +21,8 @@ public class ReignitedItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         ArrayList<String> exceptions = Lists.newArrayList(
             "unstable_ingot",
-            "sun_crystal"
+            "sun_crystal",
+            "biome_marker"
         );
         
 

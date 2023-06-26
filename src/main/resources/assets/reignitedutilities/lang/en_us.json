@@ -51,6 +51,8 @@
 	"block.reignitedutilities.angel_block": "Angel Block",
 	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
 
+	"block.reignitedutilities.biome_marker": "Biome Marker",
+
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosion in %s",
 	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ERROR: Divide by diamond\nThis ingot is highly unstable and will explode after 10 seconds.\nWill also explode if the crafting window is closed or the ingot is thrown on the ground.\nAdditionally these ingots do not stack\n\n- Do not craft unless ready -",
 
