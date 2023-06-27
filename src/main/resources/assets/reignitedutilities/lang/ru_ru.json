@@ -48,7 +48,7 @@
 	"block.reignitedutilities.angel_block": "Ангельский блок",
 	"block.reignitedutilities.slightly_larger_chest": "Немного увеличенный сундук",
 
-	"block.reignitedutilities.biome_marker": "Биомный маркер",
+	"item.reignitedutilities.biome_marker": "Биомный маркер",
 
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "Взрыв через %s",
 	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ОШИБКА: Делить на алмаз невозможно\nЭтот слиток очень нестабильный и взорвётся через 10 секунд.\nТакже взорвётся если это окно будет закрыто или слиток будет выброшен на землю.\nЭти слитки не стакаются\n\n- Не создавать если не готовы -",
