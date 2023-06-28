@@ -16,6 +16,8 @@ version = new Date().format('dd-MM-yyyy-HH-mm-ss')
 group = 'site.hellishmods.reignitedutilities'
 archivesBaseName = 'reignitedutilities'
 
+jarJar.enable()
+
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
@@ -72,15 +74,22 @@ repositories {
         name "cursemaven"
         url "https://cursemaven.com"
     }
-    maven {
+    maven { // JEI
         name = "Progwml6 maven"
         url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven { // CTM
+        url "https://maven.tterrag.com/"
     }
     maven { url 'https://maven.blamejared.com' }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
+
+    implementation fg.deobf("team.chisel.ctm:CTM:MC1.16.1-1.1.2.6") {
+        jarJar.ranged(it, "[2.0,3.0)")
+    }
 
     compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
@@ -108,3 +117,19 @@ jar {
 
     finalizedBy 'reobfJar'
 }
+
+jarJar {
+    fromRuntimeConfiguration()
+    dependencies {
+        include(dependency("team.chisel.ctm:CTM"))
+    }
+}
+reobf {
+    jarJar {}
+}
+afterEvaluate {
+    tasks.jar.finalizedBy tasks.reobfJar
+    tasks.jarJar.finalizedBy tasks.reobfJarJar
+    tasks.reobfJarJar.enabled = true
+}
+tasks.build.dependsOn tasks.jarJar

@@ -8,6 +8,7 @@ import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.items.SickleTier;
 import site.hellishmods.reignitedutilities.lib.items.SunCrystalItem;
 import site.hellishmods.reignitedutilities.reignitedutilities;
+import site.hellishmods.reignitedutilities.lib.items.BiomeMarkerItem;
 import site.hellishmods.reignitedutilities.lib.items.GPDisplayItem;
 import site.hellishmods.reignitedutilities.lib.items.SickleItem;
 import site.hellishmods.reignitedutilities.lib.items.UnstableIngot;
@@ -47,5 +48,7 @@ public class Items {
 
         reignitedutilities.ITEMS.register("redstone_crystal", () -> new GPDisplayItem());
         reignitedutilities.ITEMS.register("redstone_gear", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)));
+
+        reignitedutilities.ITEMS.register("biome_marker", () -> new BiomeMarkerItem());
     }
 }
