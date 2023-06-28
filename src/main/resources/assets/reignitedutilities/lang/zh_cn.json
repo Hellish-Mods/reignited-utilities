@@ -51,6 +51,8 @@
 	"block.reignitedutilities.angel_block": "天使方块",
 	"block.reignitedutilities.slightly_larger_chest": "稍大的箱子",
 	
+	"item.reignitedutilities.biome_marker": "生物群系标记",
+	
 	"item.reignitedutilities.unstable_ingot.tooltip.active": "在%s秒后爆炸",
 	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "错误：除以钻石\n此锭高度不稳定，会在10秒后爆炸。\n在合成界面被关闭或者被丢到地上时也会爆炸。\n这些锭无法堆叠。\n\n-除非你已准备好，否则请勿开始合成-",
 
