@@ -1,1 +1,61 @@
+{
+    "itemGroup.reignitedutilities": "Reignited Utilities",
 
+	"item.reignitedutilities.manual": "Reignited Utilities Handbuch",
+	
+	"item.reignitedutilities.unstable_ingot": "Instabiler Barren",
+	"item.reignitedutilities.stable_ingot": "Stabil-`Instabiler Barren`",
+	"item.reignitedutilities.stable_nugget": "Stabil-`Instabiler Nugget`",
+
+	"block.reignitedutilities.compressed.1": "Komprimierter",
+	"block.reignitedutilities.compressed.2": "Doppelt Komprimiert",
+	"block.reignitedutilities.compressed.3": "Dreifach Komprimiert",
+	"block.reignitedutilities.compressed.4": "Vierfach Komprimiert",
+	"block.reignitedutilities.compressed.5": "Fünffach Komprimiert",
+	"block.reignitedutilities.compressed.6": "Sechsfach Komprimiert",
+	"block.reignitedutilities.compressed.7": "Septupel Komprimiert",
+	"block.reignitedutilities.compressed.8": "Achtfach Komprimiert",
+
+	"item.reignitedutilities.glasscutter": "Glasschneider",
+	"item.reignitedutilities.endershard": "Ender-Scherbe",
+
+	"item.reignitedutilities.redstone_crystal": "Resonierender Redstone-Kristall",
+	"item.reignitedutilities.redstone_gear": "Redstone-Ausrüstung",
+
+	"block.reignitedutilities.solar_panel": "Sonnenkollektor",
+	"block.reignitedutilities.lunar_panel": "Mondkollektor",
+	"block.reignitedutilities.wind_mill": "Windmühle",
+	"block.reignitedutilities.fire_mill": "Feuermühle",
+	"block.reignitedutilities.creative_mill": "Kreative Mühle",
+	"block.reignitedutilities.manual_mill": "Manuelle Mühle",
+	"block.reignitedutilities.dragon_egg_mill": "Dracheneiermühle",
+
+	"block.reignitedutilities.chunk_loading_ward": "Bereichsverladestation",
+
+	"item.reignitedutilities.wood_sickle": "Holzsichel",
+	"item.reignitedutilities.stone_sickle": "Steinsichel",
+	"item.reignitedutilities.iron_sickle": "Eisensichel",
+	"item.reignitedutilities.gold_sickle": "Goldsichel",
+	"item.reignitedutilities.diamond_sickle": "Diamant-Sichel",
+	"item.reignitedutilities.netherite_sickle": "Netherit-Sichel",
+
+	"block.reignitedutilities.polished_stone": "Polierter Stein",
+	"block.reignitedutilities.stoneburnt": "Steinverbrannt",
+	"block.reignitedutilities.stoneburnt_chiseled": "Gemeißelt Steinverbrannt",
+	"block.reignitedutilities.stoneburnt_cross": "Steinverbranntes Kreuz",
+	"block.reignitedutilities.truchet": "Truchet",
+
+	"item.reignitedutilities.sun_crystal": "Sonnenkristall",
+	"item.reignitedutilities.sun_crystal.description": "Stelle einen leeren Sonnenkristall her und wirf ihn dann in direktem Sonnenlicht auf den Boden.",
+
+	"block.reignitedutilities.angel_block": "Engelblock",
+	"block.reignitedutilities.slightly_larger_chest": "Etwas größere Brust",
+
+	"item.reignitedutilities.biome_marker": "Biommarkierung",
+
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosion herein %s",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "FEHLER: Durch Diamant teilen\nDieser Barren ist äußerst instabil und explodiert nach 10 Sekunden.\nExplodiert auch, wenn das Herstellungsfenster geschlossen ist oder der Barren auf den Boden geworfen wird.\nAußerdem sind diese Barren nicht stapelbar\n\n- Tun Sie es nicht erstellen, es sei denn, Sie sind bereit -",
+
+	"item.reignitedutilities.gp_display_item.tooltip": "Stromnetz: %d / %d",
+	"block.reignitedutilities.gp_producing.tooltip": "Macht gegeben: %d GP"
+}
