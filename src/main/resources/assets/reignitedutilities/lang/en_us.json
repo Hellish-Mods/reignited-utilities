@@ -48,12 +48,12 @@
 	"item.reignitedutilities.sun_crystal": "Sun Crystal",
 	"item.reignitedutilities.sun_crystal.description": "Craft an empty Sun Crystal first, then throw the crystal on the ground in direct sunlight.",
 
-	"item.reignitedutilities.wood_spike": "Wooden Spikes",
-	"item.reignitedutilities.stone_spike": "Stone Spikes",
-	"item.reignitedutilities.iron_spike": "Iron Spikes",
-	"item.reignitedutilities.gold_spike": "Gold Spikes",
-	"item.reignitedutilities.diamond_spike": "Diamond Spikes",
-	"item.reignitedutilities.creative_spike": "Creative Spikes",
+	"item.reignitedutilities.wood_spike": "Wooden Spike",
+	"item.reignitedutilities.stone_spike": "Stone Spike",
+	"item.reignitedutilities.iron_spike": "Iron Spike",
+	"item.reignitedutilities.gold_spike": "Gold Spike",
+	"item.reignitedutilities.diamond_spike": "Diamond Spike",
+	"item.reignitedutilities.creative_spike": "Creative Spike",
 
 	"block.reignitedutilities.angel_block": "Angel Block",
 	"block.reignitedutilities.slightly_larger_chest": "Slightly Larger Chest",
