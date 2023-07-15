@@ -11,7 +11,7 @@ public class SpikeBlock extends Block {
     int damage;
     DamageSource source;
     public SpikeBlock(Block propertiesBlock, int damage, DamageSource source) {
-        super(AbstractBlock.Properties.copy(propertiesBlock));
+        super(AbstractBlock.Properties.copy(propertiesBlock).noOcclusion());
         this.damage = damage;
         this.source = source;
     }

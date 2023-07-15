@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -21,6 +23,7 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.registries.DeferredRegister;
@@ -62,6 +65,15 @@ public class reignitedutilities // TODO: add license
         TILE_ENTITIES.register(bus); // Add tile entity registry to bus
 
         MinecraftForge.EVENT_BUS.register(this); // Register mod
+    }
+
+    @SubscribeEvent
+    public static void onClientSetup(FMLClientSetupEvent e) {
+        e.enqueueWork(() -> {
+            Blocks.SPIKES.forEach(s -> {
+                RenderTypeLookup.setRenderLayer(s.get(), RenderType.translucent());
+            });
+        });
     }
 
     @SubscribeEvent

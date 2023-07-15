@@ -45,6 +45,13 @@
 
 	"item.reignitedutilities.sun_crystal": "Солнечный кристалл",
 
+	"block.reignitedutilities.wood_spike": "Деревянный шип",
+	"block.reignitedutilities.stone_spike": "Каменный шип",
+	"block.reignitedutilities.iron_spike": "Железный шип",
+	"block.reignitedutilities.gold_spike": "Золотой шип",
+	"block.reignitedutilities.diamond_spike": "Алмазный шип",
+	"block.reignitedutilities.creative_spike": "Креативный шип",
+
 	"block.reignitedutilities.angel_block": "Ангельский блок",
 	"block.reignitedutilities.slightly_larger_chest": "Немного увеличенный сундук",
 

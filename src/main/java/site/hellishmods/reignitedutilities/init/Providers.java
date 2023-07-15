@@ -8,6 +8,7 @@ import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.providers.blocks.AllSideBlockModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.BlockLootTableProvider;
+import site.hellishmods.reignitedutilities.providers.blocks.SpikeModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.compressed.CompressedBlockModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.compressed.CompressedBlockRecipeProvider;
 import site.hellishmods.reignitedutilities.providers.items.ReignitedItemModelProvider;
@@ -23,6 +24,7 @@ public class Providers {
 
         gen.addProvider(new BlockLootTableProvider(gen));
         gen.addProvider(new AllSideBlockModelProvider(gen, exFileHelper));
+        gen.addProvider(new SpikeModelProvider(gen, exFileHelper));
         gen.addProvider(new CompressedBlockRecipeProvider(gen));
         // TODO: reenable with bee textures
         // gen.addProvider(new CompressedBlockModelProvider(gen, exFileHelper));

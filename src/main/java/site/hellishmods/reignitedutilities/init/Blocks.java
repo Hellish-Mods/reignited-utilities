@@ -67,6 +67,7 @@ public class Blocks {
 
     public static final RegistryObject<Block> CHUNK_LOADING_WARD = reignitedutilities.BLOCKS.register("chunk_loading_ward", () -> new GPConsumingBlock<ChunkLoadingWardTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.chunk_loading_ward_entity_type));
 
+    public static final ArrayList<RegistryObject<Block>> SPIKES = new ArrayList<>();
     public static final RegistryObject<Block> SLIGHTLY_LARGER_CHEST = reignitedutilities.BLOCKS.register("slightly_larger_chest", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.CHEST)) { // TODO: finish and item model providers
             @Override
             public boolean hasTileEntity(BlockState state) {return true;} 
@@ -96,27 +97,27 @@ public class Blocks {
 
         DamageSource spikeDamage = new DamageSource("spikes");
         GameProfile fakeKiller = new GameProfile(UUID.randomUUID(), "killer");
-        reignitedutilities.BLOCKS.register("wood_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.OAK_PLANKS, 1, spikeDamage) {
+        SPIKES.add(reignitedutilities.BLOCKS.register("wood_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.OAK_PLANKS, 1, spikeDamage) {
             @Override
             public void	stepOn(World world, BlockPos pos, Entity entity) {
                 if (entity instanceof LivingEntity && ((LivingEntity)entity).getHealth()>1) entity.hurt(spikeDamage, 1);
             }
-        });
-        reignitedutilities.BLOCKS.register("stone_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.COBBLESTONE, 2, spikeDamage));
-        reignitedutilities.BLOCKS.register("iron_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.IRON_BLOCK, 4, spikeDamage));
-        reignitedutilities.BLOCKS.register("gold_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.GOLD_BLOCK, 2, spikeDamage));
-        reignitedutilities.BLOCKS.register("diamond_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.DIAMOND_BLOCK, 8, spikeDamage) {
+        }));
+        SPIKES.add(reignitedutilities.BLOCKS.register("stone_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.COBBLESTONE, 2, spikeDamage)));
+        SPIKES.add(reignitedutilities.BLOCKS.register("iron_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.IRON_BLOCK, 4, spikeDamage)));
+        SPIKES.add(reignitedutilities.BLOCKS.register("gold_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.GOLD_BLOCK, 2, spikeDamage)));
+        SPIKES.add(reignitedutilities.BLOCKS.register("diamond_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.DIAMOND_BLOCK, 8, spikeDamage) {
             @Override
             public void	stepOn(World world, BlockPos pos, Entity entity) {
                 if (world instanceof ServerWorld) entity.hurt(DamageSource.playerAttack(new FakePlayer((ServerWorld)world, fakeKiller)), 8);
             }
-        });
-        reignitedutilities.BLOCKS.register("creative_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.DIAMOND_BLOCK, Integer.MAX_VALUE, spikeDamage) {
+        }));
+        SPIKES.add(reignitedutilities.BLOCKS.register("creative_spike", () -> new SpikeBlock(net.minecraft.block.Blocks.DIAMOND_BLOCK, Integer.MAX_VALUE, spikeDamage) {
             @Override
             public void	stepOn(World world, BlockPos pos, Entity entity) {
                 if (entity instanceof LivingEntity) entity.hurt(spikeDamage, ((LivingEntity)entity).getHealth());
             }
-        });
+        }));
 
     }
 }

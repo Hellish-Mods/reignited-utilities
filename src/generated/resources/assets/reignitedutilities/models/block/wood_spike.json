@@ -1,0 +1,6 @@
+{
+  "parent": "reignitedutilities:block/spike",
+  "textures": {
+    "texture": "minecraft:block/stripped_oak_log"
+  }
+}
