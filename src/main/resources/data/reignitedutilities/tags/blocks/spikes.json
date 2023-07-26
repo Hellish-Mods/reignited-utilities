@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "reignitedutilities:wood_spike",
+        "reignitedutilities:stone_spike",
+        "reignitedutilities:iron_spike",
+        "reignitedutilities:gold_spike",
+        "reignitedutilities:diamond_spike",
+        "reignitedutilities:creative_spike"
+    ]
+}

@@ -64,5 +64,43 @@
 	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ERROR: Divide by diamond\nThis ingot is highly unstable and will explode after 10 seconds.\nWill also explode if the crafting window is closed or the ingot is thrown on the ground.\nAdditionally these ingots do not stack\n\n- Do not craft unless ready -",
 
 	"item.reignitedutilities.gp_display_item.tooltip": "Grid Power: %d / %d",
-	"block.reignitedutilities.gp_producing.tooltip": "Power Given: %d GP"
+	"block.reignitedutilities.gp_producing.tooltip": "Power Given: %d GP",
+
+	"effect.reignitedutilities.doom": "Doom",
+	"effect.reignitedutilities.gravity": "Gravity",
+	"effect.reignitedutilities.greek_fire": "Greek Fire",
+	"effect.reignitedutilities.fizzy_lifting": "Fizzy Lifting",
+	"effect.reignitedutilities.purging": "Purging",
+
+	"item.minecraft.potion.effect.doom_potion": "Potion of Doom",
+	"item.minecraft.splash_potion.effect.doom_potion": "Splash Potion of Doom",
+	"item.minecraft.lingering_potion.effect.doom_potion": "Lingering Potion of Doom",
+	"item.minecraft.tipped_arrow.effect.doom_potion": "Arrow of Doom",
+	"item.minecraft.potion.effect.gravity_potion": "Potion of Gravity",
+	"item.minecraft.splash_potion.effect.gravity_potion": "Splash Potion of Gravity",
+	"item.minecraft.lingering_potion.effect.gravity_potion": "Lingering Potion of Gravity",
+	"item.minecraft.tipped_arrow.effect.gravity_potion": "Arrow of Gravity",
+	"item.minecraft.potion.effect.long_gravity_potion": "Potion of Gravity",
+	"item.minecraft.splash_potion.effect.long_gravity_potion": "Splash Potion of Gravity",
+	"item.minecraft.lingering_potion.effect.long_gravity_potion": "Lingering Potion of Gravity",
+	"item.minecraft.tipped_arrow.effect.long_gravity_potion": "Arrow of Gravity",
+	"item.minecraft.potion.effect.greek_fire_potion": "Potion of Greek Fire",
+	"item.minecraft.splash_potion.effect.greek_fire_potion": "Splash Potion of Greek Fire",
+	"item.minecraft.lingering_potion.effect.greek_fire_potion": "Lingering Potion of Greek Fire",
+	"item.minecraft.tipped_arrow.effect.greek_fire_potion": "Arrow of Greek Fire",
+	"item.minecraft.potion.effect.oily_potion": "Oily Potion",
+	"item.minecraft.splash_potion.effect.oily_potion": "Oily Splash Potion",
+	"item.minecraft.lingering_potion.effect.oily_potion": "Oily Lingering Potion",
+	"item.minecraft.potion.effect.fizzy_lifting_potion": "Potion of Fizzy Lifting",
+	"item.minecraft.splash_potion.effect.fizzy_lifting_potion": "Splash Potion of Fizzy Lifting",
+	"item.minecraft.lingering_potion.effect.fizzy_lifting_potion": "Lingering Potion of Fizzy Lifting",
+	"item.minecraft.tipped_arrow.effect.fizzy_lifting_potion": "Arrow of Fizzy Lifting",
+	"item.minecraft.potion.effect.purging_potion": "Potion of Purging",
+	"item.minecraft.splash_potion.effect.purging_potion": "Splash Potion of Purging",
+	"item.minecraft.lingering_potion.effect.purging_potion": "Lingering Potion of Purging",
+	"item.minecraft.tipped_arrow.effect.purging_potion": "Arrow of Purging",
+
+	"chat.reignitedutilities.doom": "The Specter of Death will arrive in %d seconds.",
+
+	"death.attack.doom": "%1$s met their doom"
 }

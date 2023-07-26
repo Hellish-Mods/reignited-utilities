@@ -11,6 +11,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.potion.Effect;
+import net.minecraft.potion.Potion;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
@@ -24,12 +26,15 @@ import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import site.hellishmods.reignitedutilities.init.Blocks;
+import site.hellishmods.reignitedutilities.init.Effects;
 import site.hellishmods.reignitedutilities.init.Items;
+import site.hellishmods.reignitedutilities.init.Potions;
 import site.hellishmods.reignitedutilities.init.TileEntities;
 import site.hellishmods.reignitedutilities.lib.blocks.CompressedBlock;
 import site.hellishmods.reignitedutilities.lib.items.AngelBlockItem;
@@ -51,6 +56,8 @@ public class reignitedutilities // TODO: add license
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MOD_ID);
     public static final DeferredRegister<TileEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, MOD_ID);
+    public static final DeferredRegister<Effect> EFFECTS = DeferredRegister.create(ForgeRegistries.POTIONS, MOD_ID);
+    public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(ForgeRegistries.POTION_TYPES, MOD_ID);
 
     public reignitedutilities() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus(); // Get event bus
@@ -59,14 +66,24 @@ public class reignitedutilities // TODO: add license
         Items.init(); // Items
         Blocks.init(); // Blocks
         TileEntities.init(); // TileEntities
+        Effects.init(); // Effects
+        Potions.init(); // Potions
 
         ITEMS.register(bus); // Add item registry to bus
         BLOCKS.register(bus); // Add block registry to bus
         TILE_ENTITIES.register(bus); // Add tile entity registry to bus
+        EFFECTS.register(bus); // Add effect registry to bus
+        POTIONS.register(bus); // Add potion registry to bus
 
         MinecraftForge.EVENT_BUS.register(this); // Register mod
     }
 
+    @SubscribeEvent
+    public static void onSetup(FMLCommonSetupEvent e) {
+        e.enqueueWork(() -> {
+            Potions.initRecipes(); // Register recipes for potions
+        });
+    }
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent e) {
         e.enqueueWork(() -> {
@@ -75,6 +92,7 @@ public class reignitedutilities // TODO: add license
             });
         });
     }
+    
 
     @SubscribeEvent
     public static void onItemRegistry(RegistryEvent.Register<Item> e) {
