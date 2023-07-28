@@ -68,8 +68,11 @@
 
 	"effect.reignitedutilities.doom": "Doom",
 	"effect.reignitedutilities.gravity": "Gravity",
+	"effect.reignitedutilities.second_chance": "Second Chance",
 	"effect.reignitedutilities.greek_fire": "Greek Fire",
 	"effect.reignitedutilities.fizzy_lifting": "Fizzy Lifting",
+	"effect.reignitedutilities.relapse": "Relapse",
+	"effect.reignitedutilities.love": "Love",
 	"effect.reignitedutilities.purging": "Purging",
 
 	"item.minecraft.potion.effect.doom_potion": "Potion of Doom",
@@ -84,6 +87,10 @@
 	"item.minecraft.splash_potion.effect.long_gravity_potion": "Splash Potion of Gravity",
 	"item.minecraft.lingering_potion.effect.long_gravity_potion": "Lingering Potion of Gravity",
 	"item.minecraft.tipped_arrow.effect.long_gravity_potion": "Arrow of Gravity",
+	"item.minecraft.potion.effect.second_chance_potion": "Potion of Second Chance",
+	"item.minecraft.splash_potion.effect.second_chance_potion": "Splash Potion of Second Chance",
+	"item.minecraft.lingering_potion.effect.second_chance_potion": "Lingering Potion of Second Chance",
+	"item.minecraft.tipped_arrow.effect.second_chance_potion": "Arrow of Second Chance",
 	"item.minecraft.potion.effect.greek_fire_potion": "Potion of Greek Fire",
 	"item.minecraft.splash_potion.effect.greek_fire_potion": "Splash Potion of Greek Fire",
 	"item.minecraft.lingering_potion.effect.greek_fire_potion": "Lingering Potion of Greek Fire",
@@ -95,12 +102,30 @@
 	"item.minecraft.splash_potion.effect.fizzy_lifting_potion": "Splash Potion of Fizzy Lifting",
 	"item.minecraft.lingering_potion.effect.fizzy_lifting_potion": "Lingering Potion of Fizzy Lifting",
 	"item.minecraft.tipped_arrow.effect.fizzy_lifting_potion": "Arrow of Fizzy Lifting",
+	"item.minecraft.potion.effect.relapse_potion": "Potion of Relapse",
+	"item.minecraft.splash_potion.effect.relapse_potion": "Splash Potion of Relapse",
+	"item.minecraft.lingering_potion.effect.relapse_potion": "Lingering Potion of Relapse",
+	"item.minecraft.tipped_arrow.effect.relapse_potion": "Arrow of Relapse",
+	"item.minecraft.potion.effect.love_potion": "Potion of Love",
+	"item.minecraft.splash_potion.effect.love_potion": "Splash Potion of Love",
+	"item.minecraft.lingering_potion.effect.love_potion": "Lingering Potion of Love",
+	"item.minecraft.tipped_arrow.effect.love_potion": "Arrow of Love",
 	"item.minecraft.potion.effect.purging_potion": "Potion of Purging",
 	"item.minecraft.splash_potion.effect.purging_potion": "Splash Potion of Purging",
 	"item.minecraft.lingering_potion.effect.purging_potion": "Lingering Potion of Purging",
 	"item.minecraft.tipped_arrow.effect.purging_potion": "Arrow of Purging",
 
+	"potion_tooltip.reignitedutilities.doom": "Kills in 60 seconds.",
+	"potion_tooltip.reignitedutilities.gravity": "Pulls flyers down to the ground.",
+	"potion_tooltip.reignitedutilities.second_chance": "Will save from death but only once.",
+	"potion_tooltip.reignitedutilities.greek_fire": "Creates a fire that cannot be extinguished.",
+	"potion_tooltip.reignitedutilities.fizzy_lifting": "Gives you a sense of easiness.",
+	"potion_tooltip.reignitedutilities.relapse": "Negative potion effects resist being cured.",
+	"potion_tooltip.reignitedutilities.love": "Releases pheromones for animals.",
+	"potion_tooltip.reignitedutilities.purging": "Purges all of your potion effects, but not without a price.",
+
 	"chat.reignitedutilities.doom": "The Specter of Death will arrive in %d seconds.",
+	"chat.reignitedutilities.second_chance": "Second Chance!",
 
 	"death.attack.doom": "%1$s met their doom"
 }

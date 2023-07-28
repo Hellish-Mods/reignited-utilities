@@ -26,7 +26,6 @@ import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.registries.DeferredRegister;
@@ -78,12 +77,6 @@ public class reignitedutilities // TODO: add license
         MinecraftForge.EVENT_BUS.register(this); // Register mod
     }
 
-    @SubscribeEvent
-    public static void onSetup(FMLCommonSetupEvent e) {
-        e.enqueueWork(() -> {
-            Potions.initRecipes(); // Register recipes for potions
-        });
-    }
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent e) {
         e.enqueueWork(() -> {
