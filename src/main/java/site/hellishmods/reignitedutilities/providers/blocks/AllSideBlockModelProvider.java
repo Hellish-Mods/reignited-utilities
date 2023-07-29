@@ -23,7 +23,8 @@ public class AllSideBlockModelProvider extends BlockStateProvider {
             "stoneburnt_chiseled",
             "stoneburnt_cross",
             "truchet", 
-            "angel_block"
+            "angel_block",
+            "overworld_portal"
         );
 
         ForgeRegistries.BLOCKS.getValues().stream().filter(b -> b.getRegistryName().getNamespace().equals(reignitedutilities.MOD_ID)).forEach(b -> {
