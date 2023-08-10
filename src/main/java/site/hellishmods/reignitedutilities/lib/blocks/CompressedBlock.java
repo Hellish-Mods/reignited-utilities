@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.text.IFormattableTextComponent;
 import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import site.hellishmods.reignitedutilities.reignitedutilities;
@@ -23,6 +24,7 @@ public class CompressedBlock extends Block {
     @Override
     public IFormattableTextComponent getName() {
         if (FMLEnvironment.dist!=Dist.CLIENT) return null;
+        if (I18n.exists(getDescriptionId())) return new TranslationTextComponent(getDescriptionId());
         return new StringTextComponent(I18n.get("block."+reignitedutilities.MOD_ID+".compressed."+Integer.toString(compTier))+" "+I18n.get("block.minecraft."+mat));
     }
 }
