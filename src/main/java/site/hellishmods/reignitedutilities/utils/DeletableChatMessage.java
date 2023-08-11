@@ -26,10 +26,11 @@ public class DeletableChatMessage {
         chat = mc.gui.getChat();
 
         id = new Random().nextInt(Integer.MAX_VALUE);
-        // chat.addMessage(component, id);
+        chat.addMessage(component, id);
     }
 
     public void delete() {
         if (checkForClient()) return;
+        chat.removeById(id);
     }
 }
