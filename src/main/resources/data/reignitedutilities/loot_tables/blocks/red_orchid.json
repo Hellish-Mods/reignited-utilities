@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "reignitedutilities:red_orchid"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "reignitedutilities:red_orchid",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:explosion_decay"
+      }
+    ]
+  }
