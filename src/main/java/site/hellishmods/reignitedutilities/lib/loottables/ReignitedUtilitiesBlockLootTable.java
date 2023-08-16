@@ -3,6 +3,7 @@ package site.hellishmods.reignitedutilities.lib.loottables;
 import java.util.stream.Collectors;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.CropsBlock;
 import net.minecraft.data.loot.BlockLootTables;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,6 +19,9 @@ public class ReignitedUtilitiesBlockLootTable extends BlockLootTables {
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return ForgeRegistries.BLOCKS.getValues().stream().filter(block -> block.getRegistryName().getNamespace().equals(reignitedutilities.MOD_ID)).collect(Collectors.toList());
+        return ForgeRegistries.BLOCKS.getValues().stream()
+            .filter(block -> block.getRegistryName().getNamespace().equals(reignitedutilities.MOD_ID))
+            .filter(block -> !(block instanceof CropsBlock))
+            .collect(Collectors.toList());
     }
 }

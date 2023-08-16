@@ -13,6 +13,6 @@ public class LunarPanelMillTile extends GPProducingTile {
     public Float getGP() {return 1.25f;}
     @Override
     public boolean canGenerate(BlockPos pos, World world) {
-        return world.canSeeSky(new BlockPos(pos.getX(), pos.getY()+1, pos.getZ())) && !world.isDay();
+        return world.canSeeSky(pos.offset(0, 1, 0)) && !world.isDay();
     }
 }

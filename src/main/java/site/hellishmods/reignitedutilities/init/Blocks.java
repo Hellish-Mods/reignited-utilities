@@ -30,6 +30,7 @@ import site.hellishmods.reignitedutilities.lib.blocks.CompressedBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPConsumingBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPProducingBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.PortalBlock;
+import site.hellishmods.reignitedutilities.lib.blocks.RedOrchidBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.SpikeBlock;
 import site.hellishmods.reignitedutilities.lib.tileentities.ChunkLoadingWardTile;
 import site.hellishmods.reignitedutilities.lib.tileentities.CreativeMillTile;
@@ -97,6 +98,8 @@ public class Blocks {
     }
     public static void init() {
         initCompressed();
+
+        reignitedutilities.BLOCKS.register("red_orchid", () -> new RedOrchidBlock());
 
         DamageSource spikeDamage = new DamageSource("spikes");
         GameProfile fakeKiller = new GameProfile(UUID.randomUUID(), "killer");
