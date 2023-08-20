@@ -76,8 +76,7 @@ repositories {
         url "https://cursemaven.com"
     }
     maven { // JEI
-        name = "Progwml6 maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
+        url = "https://maven.blamejared.com/"
     }
     maven { // CTM
         url "https://maven.tterrag.com/"

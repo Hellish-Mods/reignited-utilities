@@ -29,6 +29,7 @@ import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.lib.blocks.CompressedBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPConsumingBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPProducingBlock;
+import site.hellishmods.reignitedutilities.lib.blocks.PanelBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.PortalBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.RedOrchidBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.SpikeBlock;
@@ -52,8 +53,8 @@ public class Blocks {
     public static final RegistryObject<Block> TRUCHET = reignitedutilities.BLOCKS.register("truchet", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE))); // TODO: make the truchet effect
     public static final RegistryObject<Block> STONEBURNT_CROSS = reignitedutilities.BLOCKS.register("stoneburnt_cross", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE)));
 
-    public static final RegistryObject<Block> SOLAR_PANEL = reignitedutilities.BLOCKS.register("solar_panel", () -> new GPProducingBlock<SolarPanelMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.solar_panel_mill_entity_type));
-    public static final RegistryObject<Block> LUNAR_PANEL = reignitedutilities.BLOCKS.register("lunar_panel", () -> new GPProducingBlock<LunarPanelMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.lunar_panel_mill_entity_type));
+    public static final RegistryObject<Block> SOLAR_PANEL = reignitedutilities.BLOCKS.register("solar_panel", () -> new PanelBlock<SolarPanelMillTile>(TileEntities.solar_panel_mill_entity_type));
+    public static final RegistryObject<Block> LUNAR_PANEL = reignitedutilities.BLOCKS.register("lunar_panel", () -> new PanelBlock<LunarPanelMillTile>(TileEntities.lunar_panel_mill_entity_type));
     public static final RegistryObject<Block> FIRE_MILL = reignitedutilities.BLOCKS.register("fire_mill", () -> new GPProducingBlock<FireMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.fire_mill_entity_type));
     public static final RegistryObject<Block> WIND_MILL = reignitedutilities.BLOCKS.register("wind_mill", () -> new GPProducingBlock<WindMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.wind_mill_entity_type)); // TODO: replace properties & texture
     public static final RegistryObject<Block> CREATIVE_MILL = reignitedutilities.BLOCKS.register("creative_mill", () -> new GPProducingBlock<CreativeMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.creative_mill_entity_type));
