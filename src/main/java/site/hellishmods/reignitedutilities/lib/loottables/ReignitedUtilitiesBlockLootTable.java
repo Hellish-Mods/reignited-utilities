@@ -13,7 +13,7 @@ public class ReignitedUtilitiesBlockLootTable extends BlockLootTables {
     @Override
     protected void addTables() {
         for (RegistryObject<Block> block : reignitedutilities.BLOCKS.getEntries()) {
-            dropSelf(block.get());
+            if (!(block.get() instanceof CropsBlock)) dropSelf(block.get());
         }
     }
 

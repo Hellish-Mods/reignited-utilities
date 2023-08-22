@@ -2,7 +2,6 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "reignitedutilities:block/lunar_panel",
 		"particle": "#0"
 	},
 	"elements": [

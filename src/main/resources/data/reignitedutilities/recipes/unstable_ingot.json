@@ -18,6 +18,7 @@
 	},
 	"result": {
 		"item": "reignitedutilities:unstable_ingot",
+		"nbt": "{ticksLeft:200}",
 		"count": 1
 	}
 }

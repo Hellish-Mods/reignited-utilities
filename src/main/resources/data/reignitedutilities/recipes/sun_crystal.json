@@ -19,6 +19,7 @@
 	],
 	"result": {
 		"item": "reignitedutilities:sun_crystal",
+		"nbt": "{Damage:250}",
 		"count": 1
 	}
 }

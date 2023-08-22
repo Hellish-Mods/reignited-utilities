@@ -2,21 +2,21 @@ package site.hellishmods.reignitedutilities.lib.items;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.ItemEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 
 public class SunCrystalItem extends Item {
     public SunCrystalItem() {
         super(new Item.Properties().tab(reignitedutilities.TAB).stacksTo(1).defaultDurability(250));
-    }
-
-    @Override
-    public void onCraftedBy(ItemStack stack, World world, PlayerEntity entity) {
-        stack.setDamageValue(stack.getMaxDamage());
+        FMLJavaModLoadingContext.get().getModEventBus().register(this);
     }
 
     private class SunCrystalItemEntity extends ItemEntity {
@@ -47,5 +47,14 @@ public class SunCrystalItem extends Item {
     @Override
     public Entity createEntity(World world, Entity location, ItemStack stack) {
         return new SunCrystalItemEntity(world, location, stack);
+    }
+
+    @SubscribeEvent
+    @OnlyIn(Dist.CLIENT)
+    public void onColorRegister(ColorHandlerEvent.Item event) {
+        event.getItemColors().register((stack, index) -> { // TODO
+            if (index!=0) return 0xFFFFFF;
+            return 0x00FFFFFF+(0xFF000000*Math.round(stack.getDamageValue()/stack.getMaxDamage()));
+        }, this);
     }
 }

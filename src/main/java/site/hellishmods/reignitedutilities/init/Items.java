@@ -11,14 +11,14 @@ import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.lib.items.BiomeMarkerItem;
 import site.hellishmods.reignitedutilities.lib.items.GPDisplayItem;
 import site.hellishmods.reignitedutilities.lib.items.SickleItem;
-import site.hellishmods.reignitedutilities.lib.items.UnstableIngot;
+import site.hellishmods.reignitedutilities.lib.items.UnstableIngotItem;
 
 public class Items {
     public static RegistryObject<Item> unstableIngot;
     public static RegistryObject<Item> sunCrystal;
 
     public static void init() {
-        unstableIngot = reignitedutilities.ITEMS.register("unstable_ingot", () -> new UnstableIngot());
+        unstableIngot = reignitedutilities.ITEMS.register("unstable_ingot", () -> new UnstableIngotItem());
         reignitedutilities.ITEMS.register("stable_nugget", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)));
         reignitedutilities.ITEMS.register("stable_ingot", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)));
 
