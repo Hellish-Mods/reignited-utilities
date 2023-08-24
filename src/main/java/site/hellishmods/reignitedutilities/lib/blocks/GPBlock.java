@@ -1,6 +1,5 @@
 package site.hellishmods.reignitedutilities.lib.blocks;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
@@ -13,7 +12,7 @@ import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.tileentities.GPTile;
 
-public class GPBlock<T extends GPTile> extends Block {
+public class GPBlock<T extends GPTile> extends OrientableBlock {
     protected T tile;
     protected RegistryObject<TileEntityType<T>> tileType;
 

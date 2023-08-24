@@ -1,0 +1,7 @@
+{
+  "parent": "reignitedutilities:block/multi_layer_block",
+  "textures": {
+    "layer0": "minecraft:block/dirt",
+    "layer1": "reignitedutilities:block/compressed_overlays/1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"particle": "#layer1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#layer0"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#layer0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#layer1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#layer1"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#layer1"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#layer1"}
+			}
+		}
+	]
+}

@@ -27,8 +27,7 @@ public class Providers { // TODO: fix
         gen.addProvider(new AllSideBlockModelProvider(gen, exFileHelper));
         gen.addProvider(new PanelModelProvider(gen, exFileHelper));
         gen.addProvider(new SpikeModelProvider(gen, exFileHelper));
+        gen.addProvider(new CompressedBlockModelProvider(gen, exFileHelper));
         gen.addProvider(new CompressedBlockRecipeProvider(gen));
-        // TODO: reenable with bee textures
-        // gen.addProvider(new CompressedBlockModelProvider(gen, exFileHelper));
     }
 }

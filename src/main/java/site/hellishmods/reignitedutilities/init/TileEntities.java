@@ -1,13 +1,12 @@
 package site.hellishmods.reignitedutilities.init;
 
-import net.minecraft.tileentity.BarrelTileEntity;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.tileentities.*;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 
 public class TileEntities {
-    public static RegistryObject<TileEntityType<BarrelTileEntity>> slightly_larger_chest_entity_type;
+    public static RegistryObject<TileEntityType<SlightlyLargerChestTile>> slightly_larger_chest_entity_type;
 
     public static RegistryObject<TileEntityType<SolarPanelMillTile>> solar_panel_mill_entity_type;
     public static RegistryObject<TileEntityType<LunarPanelMillTile>> lunar_panel_mill_entity_type;
@@ -20,7 +19,7 @@ public class TileEntities {
     public static RegistryObject<TileEntityType<ChunkLoadingWardTile>> chunk_loading_ward_entity_type;
 
     public static void init() {
-        slightly_larger_chest_entity_type = reignitedutilities.TILE_ENTITIES.register("slightly_larger_chest", () -> TileEntityType.Builder.of(BarrelTileEntity::new, Blocks.SLIGHTLY_LARGER_CHEST.get()).build(null));
+        slightly_larger_chest_entity_type = reignitedutilities.TILE_ENTITIES.register("slightly_larger_chest", () -> TileEntityType.Builder.of(SlightlyLargerChestTile::new, Blocks.SLIGHTLY_LARGER_CHEST.get()).build(null));
 
         solar_panel_mill_entity_type = reignitedutilities.TILE_ENTITIES.register("solar_panel_mill", () -> TileEntityType.Builder.of(SolarPanelMillTile::new, Blocks.SOLAR_PANEL.get()).build(null));
         lunar_panel_mill_entity_type = reignitedutilities.TILE_ENTITIES.register("lunar_panel_mill", () -> TileEntityType.Builder.of(LunarPanelMillTile::new, Blocks.LUNAR_PANEL.get()).build(null));

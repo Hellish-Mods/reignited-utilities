@@ -13,14 +13,11 @@ import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.tileentity.BarrelTileEntity;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.common.util.FakePlayer;
@@ -32,6 +29,7 @@ import site.hellishmods.reignitedutilities.lib.blocks.GPProducingBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.PanelBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.PortalBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.RedOrchidBlock;
+import site.hellishmods.reignitedutilities.lib.blocks.SlightlyLargerChestBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.SpikeBlock;
 import site.hellishmods.reignitedutilities.lib.tileentities.ChunkLoadingWardTile;
 import site.hellishmods.reignitedutilities.lib.tileentities.CreativeMillTile;
@@ -73,14 +71,7 @@ public class Blocks {
     public static final RegistryObject<Block> OVERWORLD_PORTAL = reignitedutilities.BLOCKS.register("overworld_portal", () -> new PortalBlock(World.OVERWORLD));
 
     public static final ArrayList<RegistryObject<Block>> SPIKES = new ArrayList<>();
-    public static final RegistryObject<Block> SLIGHTLY_LARGER_CHEST = reignitedutilities.BLOCKS.register("slightly_larger_chest", () -> new Block(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.CHEST)) { // TODO: finish and item model providers
-            @Override
-            public boolean hasTileEntity(BlockState state) {return true;} 
-            @Override
-            public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-                return new BarrelTileEntity(TileEntities.slightly_larger_chest_entity_type.get());
-            }
-        });
+    public static final RegistryObject<Block> SLIGHTLY_LARGER_CHEST = reignitedutilities.BLOCKS.register("slightly_larger_chest", () -> new SlightlyLargerChestBlock());
 
     static void initCompressed() {
         HashMap<String, Integer> mats = new HashMap<>();
