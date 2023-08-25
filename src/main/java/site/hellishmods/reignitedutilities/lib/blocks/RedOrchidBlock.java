@@ -18,7 +18,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class RedOrchidBlock extends CropsBlock {
     public RedOrchidBlock() {
-        super(AbstractBlock.Properties.copy(Blocks.GRASS).sound(SoundType.STONE)); // TODO: replace?
+        super(AbstractBlock.Properties.copy(Blocks.GRASS).sound(SoundType.STONE));
         MinecraftForge.EVENT_BUS.register(this);
     }
     @Override

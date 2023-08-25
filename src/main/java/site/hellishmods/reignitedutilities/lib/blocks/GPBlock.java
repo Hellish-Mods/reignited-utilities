@@ -12,7 +12,7 @@ import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.tileentities.GPTile;
 
-public class GPBlock<T extends GPTile> extends OrientableBlock {
+abstract public class GPBlock<T extends GPTile> extends OrientableBlock {
     protected T tile;
     protected RegistryObject<TileEntityType<T>> tileType;
 

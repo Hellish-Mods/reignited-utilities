@@ -15,7 +15,7 @@ import site.hellishmods.reignitedutilities.providers.blocks.compressed.Compresse
 import site.hellishmods.reignitedutilities.providers.items.ReignitedItemModelProvider;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = reignitedutilities.MOD_ID)
-public class Providers { // TODO: fix
+public class Providers {
     @SubscribeEvent
     public static void onDataGather(GatherDataEvent e) {
         DataGenerator gen = e.getGenerator();
