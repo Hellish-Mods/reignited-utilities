@@ -1,4 +1,4 @@
-package site.hellishmods.reignitedutilities.providers.blocks;
+package site.hellishmods.reignitedutilities.providers.blocks.spikes;
 
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;

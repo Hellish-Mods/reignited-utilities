@@ -24,7 +24,6 @@ public class ReignitedItemModelProvider extends ItemModelProvider {
             "sun_crystal",
             "biome_marker"
         );
-        
 
         ForgeRegistries.ITEMS.getValues().stream().filter(item -> item.getRegistryName().getNamespace().equals(reignitedutilities.MOD_ID)).forEach(i -> {
             String name = i.getRegistryName().getPath();

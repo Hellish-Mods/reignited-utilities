@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DID",
+		"ISI",
+		"DID"
+	],
+	"key": {
+		"D": {
+			"tag": "reignitedutilities:biome_marker_ingerdients"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"S": {
+			"tag": "minecraft:saplings"
+		}
+	},
+	"result": {
+		"item": "reignitedutilities:biome_marker",
+		"count": 1
+	}
+}

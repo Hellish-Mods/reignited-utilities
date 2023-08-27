@@ -9,9 +9,10 @@ import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.providers.blocks.AllSideBlockModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.BlockLootTableProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.PanelModelProvider;
-import site.hellishmods.reignitedutilities.providers.blocks.SpikeModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.compressed.CompressedBlockModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.compressed.CompressedBlockRecipeProvider;
+import site.hellishmods.reignitedutilities.providers.blocks.spikes.SpikeModelProvider;
+import site.hellishmods.reignitedutilities.providers.blocks.spikes.SpikeRecipeProvider;
 import site.hellishmods.reignitedutilities.providers.items.ReignitedItemModelProvider;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = reignitedutilities.MOD_ID)
@@ -27,6 +28,7 @@ public class Providers {
         gen.addProvider(new AllSideBlockModelProvider(gen, exFileHelper));
         gen.addProvider(new PanelModelProvider(gen, exFileHelper));
         gen.addProvider(new SpikeModelProvider(gen, exFileHelper));
+        gen.addProvider(new SpikeRecipeProvider(gen));
         gen.addProvider(new CompressedBlockModelProvider(gen, exFileHelper));
         gen.addProvider(new CompressedBlockRecipeProvider(gen));
     }

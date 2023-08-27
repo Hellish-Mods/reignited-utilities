@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SIS",
+    "IBI"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:wooden_sword"
+    },
+    "I": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "reignitedutilities:wood_spike",
+    "count": 4
+  }
+}

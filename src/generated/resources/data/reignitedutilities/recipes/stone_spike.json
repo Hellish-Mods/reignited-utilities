@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SIS",
+    "IBI"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone_sword"
+    },
+    "I": {
+      "tag": "forge:cobblestone"
+    },
+    "B": {
+      "item": "reignitedutilities:1_compressed_cobblestone"
+    }
+  },
+  "result": {
+    "item": "reignitedutilities:stone_spike",
+    "count": 4
+  }
+}
