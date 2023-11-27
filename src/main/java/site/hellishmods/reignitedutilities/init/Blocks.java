@@ -10,6 +10,7 @@ import com.mojang.authlib.GameProfile;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.SoundType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -24,6 +25,7 @@ import net.minecraftforge.common.util.FakePlayer;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.reignitedutilities;
 import site.hellishmods.reignitedutilities.lib.blocks.CompressedBlock;
+import site.hellishmods.reignitedutilities.lib.blocks.CursedEarthBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPConsumingBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.GPProducingBlock;
 import site.hellishmods.reignitedutilities.lib.blocks.PanelBlock;
@@ -65,6 +67,8 @@ public class Blocks {
         }
     });
     public static final RegistryObject<Block> DRAGON_EGG_MILL = reignitedutilities.BLOCKS.register("dragon_egg_mill", () -> new GPProducingBlock<DragonEggMillTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.dragon_egg_mill_entity_type));
+
+    public static final RegistryObject<Block> CURSED_EARTH = reignitedutilities.BLOCKS.register("cursed_earth", () -> new CursedEarthBlock());
 
     public static final RegistryObject<Block> CHUNK_LOADING_WARD = reignitedutilities.BLOCKS.register("chunk_loading_ward", () -> new GPConsumingBlock<ChunkLoadingWardTile>(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.COBBLESTONE), TileEntities.chunk_loading_ward_entity_type));
 
