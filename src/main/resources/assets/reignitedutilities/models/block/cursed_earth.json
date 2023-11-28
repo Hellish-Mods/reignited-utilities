@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/mycelium",
+    "textures": {
+        "top": "reignitedutilities:block/cursed_earth_top",
+        "side": "reignitedutilities:block/cursed_earth_side"
+    }
+}

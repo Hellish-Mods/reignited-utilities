@@ -2,14 +2,22 @@ package site.hellishmods.reignitedutilities.init;
 
 import java.util.Random;
 
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.World;
+import net.minecraftforge.common.util.Constants;
 import net.minecraftforge.fml.RegistryObject;
 import site.hellishmods.reignitedutilities.lib.items.SickleTier;
 import site.hellishmods.reignitedutilities.lib.items.SunCrystalItem;
 import site.hellishmods.reignitedutilities.reignitedutilities;
+import site.hellishmods.reignitedutilities.lib.blocks.CursedEarthBlock;
 import site.hellishmods.reignitedutilities.lib.items.BiomeMarkerItem;
-import site.hellishmods.reignitedutilities.lib.items.DropOfEvilItem;
 import site.hellishmods.reignitedutilities.lib.items.GPDisplayItem;
 import site.hellishmods.reignitedutilities.lib.items.SickleItem;
 import site.hellishmods.reignitedutilities.lib.items.UnstableIngotItem;
@@ -50,7 +58,24 @@ public class Items {
         reignitedutilities.ITEMS.register("redstone_crystal", () -> new GPDisplayItem());
         reignitedutilities.ITEMS.register("redstone_gear", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)));
 
-        reignitedutilities.ITEMS.register("drop_of_evil", () -> new DropOfEvilItem());
+        reignitedutilities.ITEMS.register("drop_of_evil", () -> new Item(new Item.Properties().tab(reignitedutilities.TAB)) {
+            @Override
+            public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
+                ItemStack heldItem = player.getItemInHand(hand);
+                if (world.isClientSide()) return ActionResult.fail(heldItem);
+
+                RayTraceResult result = player.pick(5, 0, false);
+                if (!(result instanceof BlockRayTraceResult)) return ActionResult.fail(heldItem);
+
+                BlockPos pos = ((BlockRayTraceResult)result).getBlockPos();
+                if (!CursedEarthBlock.isDirtBlock(world.getBlockState(pos))) return ActionResult.fail(heldItem);
+
+                if (!player.isCreative()) heldItem.shrink(1);
+                world.setBlock(pos, Blocks.CURSED_EARTH.get().defaultBlockState().setValue(CursedEarthBlock.SPREADING_DISTANCE_LEFT, CursedEarthBlock.MAX_DISTANCE), Constants.BlockFlags.DEFAULT);
+
+                return ActionResult.success(heldItem);
+            }
+        });
 
         reignitedutilities.ITEMS.register("biome_marker", () -> new BiomeMarkerItem());
     }
