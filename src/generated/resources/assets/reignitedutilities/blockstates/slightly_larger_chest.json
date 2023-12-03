@@ -1,9 +1,5 @@
 {
   "variants": {
-    "facing=east": {
-      "model": "reignitedutilities:block/slightly_larger_chest",
-      "y": 90
-    },
     "facing=north": {
       "model": "reignitedutilities:block/slightly_larger_chest"
     },
@@ -14,6 +10,10 @@
     "facing=west": {
       "model": "reignitedutilities:block/slightly_larger_chest",
       "y": 270
+    },
+    "facing=east": {
+      "model": "reignitedutilities:block/slightly_larger_chest",
+      "y": 90
     }
   }
 }

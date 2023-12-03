@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reignitedutilities:block/wind_mill"
+    },
+    "facing=south": {
+      "model": "reignitedutilities:block/wind_mill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reignitedutilities:block/wind_mill",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "reignitedutilities:block/wind_mill",
+      "y": 90
+    }
+  }
+}

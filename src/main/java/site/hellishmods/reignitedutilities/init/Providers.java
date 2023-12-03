@@ -6,8 +6,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import site.hellishmods.reignitedutilities.reignitedutilities;
-import site.hellishmods.reignitedutilities.providers.blocks.AllSideBlockModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.BlockLootTableProvider;
+import site.hellishmods.reignitedutilities.providers.blocks.OtherBlockStateProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.PanelModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.compressed.CompressedBlockModelProvider;
 import site.hellishmods.reignitedutilities.providers.blocks.compressed.CompressedBlockRecipeProvider;
@@ -25,7 +25,7 @@ public class Providers {
         gen.addProvider(new ReignitedItemModelProvider(gen, exFileHelper));
 
         gen.addProvider(new BlockLootTableProvider(gen));
-        gen.addProvider(new AllSideBlockModelProvider(gen, exFileHelper));
+        gen.addProvider(new OtherBlockStateProvider(gen, exFileHelper));
         gen.addProvider(new PanelModelProvider(gen, exFileHelper));
         gen.addProvider(new SpikeModelProvider(gen, exFileHelper));
         gen.addProvider(new SpikeRecipeProvider(gen));

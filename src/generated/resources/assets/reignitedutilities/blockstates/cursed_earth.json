@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "spread=0": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=1": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=2": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=3": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=4": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=5": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=6": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=7": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=8": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=9": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=10": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=11": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=12": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=13": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=14": {
+      "model": "reignitedutilities:block/cursed_earth"
+    },
+    "spread=15": {
+      "model": "reignitedutilities:block/cursed_earth"
+    }
+  }
+}
