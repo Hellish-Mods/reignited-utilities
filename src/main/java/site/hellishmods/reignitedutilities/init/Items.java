@@ -7,6 +7,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.RayTraceResult;
@@ -73,6 +75,7 @@ public class Items {
                 if (!player.isCreative()) heldItem.shrink(1);
                 world.setBlock(pos, Blocks.CURSED_EARTH.get().defaultBlockState().setValue(CursedEarthBlock.SPREADING_DISTANCE_LEFT, CursedEarthBlock.MAX_DISTANCE), Constants.BlockFlags.DEFAULT);
 
+                world.playSound(null, pos, SoundEvents.ZOMBIE_VILLAGER_CONVERTED, SoundCategory.BLOCKS, 1, 1);
                 return ActionResult.success(heldItem);
             }
         });

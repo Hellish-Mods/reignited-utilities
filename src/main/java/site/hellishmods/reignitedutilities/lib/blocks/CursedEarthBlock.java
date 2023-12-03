@@ -68,6 +68,7 @@ public class CursedEarthBlock extends Block {
             }
             if (dirtPos==null) return;
 
+            world.levelEvent(2001, dirtPos, Block.getId(world.getBlockState(dirtPos))); // TODO: add config option to disable this
             world.setBlock(dirtPos, state.setValue(SPREADING_DISTANCE_LEFT, state.getValue(SPREADING_DISTANCE_LEFT)-1), Constants.BlockFlags.DEFAULT);
         });
         world.setBlock(pos, state.setValue(SPREADING_DISTANCE_LEFT, 0), Constants.BlockFlags.DEFAULT);
