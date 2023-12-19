@@ -1,0 +1,154 @@
+{
+    "itemGroup.reignitedutilities": "Reignited Utilities",
+
+	"item.reignitedutilities.manual": "Manual de Reignited Utilities",
+	
+	"item.reignitedutilities.unstable_ingot": "Lingote inestable",
+	"item.reignitedutilities.stable_ingot": "Lingote estable-`inestable`",
+	"item.reignitedutilities.stable_nugget": "Pepita estable-`inestable`",
+
+	"block.reignitedutilities.1_compressed_cobblestone": "Roca comprimida",
+	"block.reignitedutilities.1_compressed_dirt": "Tierra comprimida",
+	"block.reignitedutilities.1_compressed_gravel": "Grava comprimida",
+	"block.reignitedutilities.1_compressed_netherrack": "Netherrack comprimido",
+	"block.reignitedutilities.1_compressed_sand": "Arena comprimida",
+
+	"block.reignitedutilities.2_compressed_cobblestone": "Roca doblemente comprimida",
+	"block.reignitedutilities.2_compressed_dirt": "Tierra doblemente comprimida",
+	"block.reignitedutilities.2_compressed_gravel": "Grava doblemente comprimida",
+	"block.reignitedutilities.2_compressed_netherrack": "Netherrack doblemente comprimido",
+	"block.reignitedutilities.2_compressed_sand": "Arena doblemente comprimida",
+
+	"block.reignitedutilities.3_compressed_cobblestone": "Roca triplemente comprimida",
+	"block.reignitedutilities.3_compressed_dirt": "Tierra triplemente comprimida",
+	"block.reignitedutilities.3_compressed_netherrack": "Netherrack triplemente comprimido",
+
+	"block.reignitedutilities.4_compressed_cobblestone": "Roca cuádruplemente comprimida",
+	"block.reignitedutilities.4_compressed_netherrack": "Netherrack cuádruplemente comprimido",
+
+	"block.reignitedutilities.5_compressed_cobblestone": "Roca quíntuplemente comprimida",
+	"block.reignitedutilities.5_compressed_netherrack": "Netherrack quíntuplemente comprimido",
+
+	"block.reignitedutilities.6_compressed_cobblestone": "Roca séxtuplemente comprimida",
+	"block.reignitedutilities.6_compressed_netherrack": "Netherrack séxtuplemente comprimido",
+
+	"block.reignitedutilities.7_compressed_cobblestone": "Roca séptuplemente comprimida",
+	"block.reignitedutilities.8_compressed_cobblestone": "Roca óctuplemente comprimida",
+
+	"item.reignitedutilities.glasscutter": "Cortadora de vidrio",
+	"item.reignitedutilities.endershard": "Fragmento de ender",
+
+	"item.reignitedutilities.redstone_crystal": "Cristal resonante de redstone",
+	"item.reignitedutilities.redstone_gear": "Engranaje de redstone",
+
+	"block.reignitedutilities.solar_panel": "Panel solar",
+	"block.reignitedutilities.lunar_panel": "Panel lunar",
+	"block.reignitedutilities.wind_mill": "Molino de viento",
+	"block.reignitedutilities.fire_mill": "Molino de fuego",
+	"block.reignitedutilities.creative_mill": "Molino creativo",
+	"block.reignitedutilities.manual_mill": "Molino manual",
+	"block.reignitedutilities.dragon_egg_mill": "Molino de huevo de dragón",
+
+	"block.reignitedutilities.chunk_loading_ward": "Guarda de carga de chunk",
+
+	"item.reignitedutilities.wood_sickle": "Hoz de madera",
+	"item.reignitedutilities.stone_sickle": "Hoz de piedra",
+	"item.reignitedutilities.iron_sickle": "Hoz de hierro",
+	"item.reignitedutilities.gold_sickle": "Hoz de oro",
+	"item.reignitedutilities.diamond_sickle": "Hoz de diamante",
+	"item.reignitedutilities.netherite_sickle": "Hoz de netherita",
+
+	"block.reignitedutilities.polished_stone": "Piedra pulida",
+	"block.reignitedutilities.stoneburnt": "Piedraquemada",
+	"block.reignitedutilities.stoneburnt_chiseled": "Piedraquemada cincelada",
+	"block.reignitedutilities.stoneburnt_cross": "Cruz de piedraquemada",
+	"block.reignitedutilities.truchet": "Tesela de Truchet",
+
+	"item.reignitedutilities.sun_crystal": "Cristal del Sol",
+	"item.reignitedutilities.sun_crystal.description": "Fabrica un Cristal del Sol vacío para empezar, y luego lanza el cristal al suelo bajo la luz solar directa.",
+
+	"block.reignitedutilities.wood_spike": "Pico de madera",
+	"block.reignitedutilities.stone_spike": "Pico de piedra",
+	"block.reignitedutilities.iron_spike": "Pico de hierro",
+	"block.reignitedutilities.gold_spike": "Pico de oro",
+	"block.reignitedutilities.diamond_spike": "Pico de diamante",
+	"block.reignitedutilities.creative_spike": "Pico creativo",
+
+	"block.reignitedutilities.angel_block": "Bloque de ángel",
+
+	"block.reignitedutilities.overworld_portal": "Portal de la superficie",
+	"block.reignitedutilities.deep_dark_portal": "Portal de la oscuridad profunda",
+
+	"block.reignitedutilities.slightly_larger_chest": "Cofre ligeramente mayor",
+
+	"item.reignitedutilities.biome_marker": "Marcador de bioma",
+
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "Explosión en %s",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ERROR: División por diamante\nEste lingote es altamente inestable y explotará después de 10 segundos.\nTambien explotará si la ventana de fabricación está cerrada o el lingote es lanzado al suelo.\nAdemás, estos lingotes no se apilan.\n\n- No fabrica a menos que esté listo/a -",
+
+	"item.reignitedutilities.gp_display_item.tooltip": "Energía de la red: %d / %d",
+	"block.reignitedutilities.gp_producing.tooltip": "Energía dada: %d GP",
+
+	"effect.reignitedutilities.doom": "Perdición",
+	"effect.reignitedutilities.gravity": "Gravedad",
+	"effect.reignitedutilities.second_chance": "Segunda oportunidad",
+	"effect.reignitedutilities.greek_fire": "Fuego griego",
+	"effect.reignitedutilities.fizzy_lifting": "Levantamiento efervescente",
+	"effect.reignitedutilities.relapse": "Recaída",
+	"effect.reignitedutilities.love": "Amor",
+	"effect.reignitedutilities.purging": "Depuración",
+
+	"item.minecraft.potion.effect.doom_potion": "Poción de perdición",
+	"item.minecraft.splash_potion.effect.doom_potion": "Poción de perdición arrojadiza",
+	"item.minecraft.lingering_potion.effect.doom_potion": "Poción de perdición persistente",
+	"item.minecraft.tipped_arrow.effect.doom_potion": "Flecha de perdición",
+	"item.minecraft.potion.effect.gravity_potion": "Poción de gravedad",
+	"item.minecraft.splash_potion.effect.gravity_potion": "Poción de gravedad arrojadiza",
+	"item.minecraft.lingering_potion.effect.gravity_potion": "Poción de gravedad persistente",
+	"item.minecraft.tipped_arrow.effect.gravity_potion": "Flecha de gravedad",
+	"item.minecraft.potion.effect.long_gravity_potion": "Poción de gravedad",
+	"item.minecraft.splash_potion.effect.long_gravity_potion": "Poción de gravedad arrojadiza",
+	"item.minecraft.lingering_potion.effect.long_gravity_potion": "Poción de gravedad persistente",
+	"item.minecraft.tipped_arrow.effect.long_gravity_potion": "Flecha de gravedad",
+	"item.minecraft.potion.effect.second_chance_potion": "Poción de segunda oportunidad",
+	"item.minecraft.splash_potion.effect.second_chance_potion": "Poción de segunda oportunidad arrojadiza",
+	"item.minecraft.lingering_potion.effect.second_chance_potion": "Poción de segunda oportunidad persistente",
+	"item.minecraft.tipped_arrow.effect.second_chance_potion": "Flecha de segunda oportunidad",
+	"item.minecraft.potion.effect.greek_fire_potion": "Poción de fuego griego",
+	"item.minecraft.splash_potion.effect.greek_fire_potion": "Poción de fuego griego arrojadiza",
+	"item.minecraft.lingering_potion.effect.greek_fire_potion": "Poción de fuego griego persistente",
+	"item.minecraft.tipped_arrow.effect.greek_fire_potion": "Flecha de fuego griego",
+	"item.minecraft.potion.effect.oily_potion": "Poción grasa",
+	"item.minecraft.splash_potion.effect.oily_potion": "Poción grasa arrojadiza",
+	"item.minecraft.lingering_potion.effect.oily_potion": "Poción grasa persistente",
+	"item.minecraft.potion.effect.fizzy_lifting_potion": "Poción de levantamiento efervescente",
+	"item.minecraft.splash_potion.effect.fizzy_lifting_potion": "Poción de levantamiento efervescente arrojadiza",
+	"item.minecraft.lingering_potion.effect.fizzy_lifting_potion": "Poción de levantamiento efervescente persistente",
+	"item.minecraft.tipped_arrow.effect.fizzy_lifting_potion": "Flecha de levantamiento efervescente",
+	"item.minecraft.potion.effect.relapse_potion": "Poción de Recaída",
+	"item.minecraft.splash_potion.effect.relapse_potion": "Poción de Recaída arrojadiza",
+	"item.minecraft.lingering_potion.effect.relapse_potion": "Poción de Recaída persistente",
+	"item.minecraft.tipped_arrow.effect.relapse_potion": "Flecha de Recaída",
+	"item.minecraft.potion.effect.love_potion": "Poción de amor",
+	"item.minecraft.splash_potion.effect.love_potion": "Poción de amor arrojadiza",
+	"item.minecraft.lingering_potion.effect.love_potion": "Poción de amor persistente",
+	"item.minecraft.tipped_arrow.effect.love_potion": "Flecha de amor",
+	"item.minecraft.potion.effect.purging_potion": "Poción de depuración",
+	"item.minecraft.splash_potion.effect.purging_potion": "Poción de depuración arrojadiza",
+	"item.minecraft.lingering_potion.effect.purging_potion": "Poción de depuración persistente",
+	"item.minecraft.tipped_arrow.effect.purging_potion": "Flecha de depuración",
+
+	"potion_tooltip.reignitedutilities.doom": "Mata en 60 segundos.",
+	"potion_tooltip.reignitedutilities.gravity": "Derriba voladores al suelo.",
+	"potion_tooltip.reignitedutilities.second_chance": "Salvará de la muerte, pero solo una vez.",
+	"potion_tooltip.reignitedutilities.greek_fire": "Crea un fuego que no puede ser extinguido.",
+	"potion_tooltip.reignitedutilities.fizzy_lifting": "Te da un sentido de facilidad.",
+	"potion_tooltip.reignitedutilities.relapse": "Efectos negativos de pociones resisten a ser curados.",
+	"potion_tooltip.reignitedutilities.love": "Libera feromonas para los animales.",
+	"potion_tooltip.reignitedutilities.purging": "Purga todos tus efectos de pociones, pero no sin un precio.",
+
+	"chat.reignitedutilities.doom": "El Espectro de la Muerte llegará en %d segundos.",
+	"chat.reignitedutilities.second_chance": "¡Segunda oportunidad!",
+
+	"death.attack.doom": "%1$s ha encontrado su perdición"
+}
