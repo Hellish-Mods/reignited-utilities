@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "reignitedutilities:wood_sickle",
+    "reignitedutilities:stone_sickle",
+    "reignitedutilities:iron_sickle",
+    "reignitedutilities:gold_sickle",
+    "reignitedutilities:diamond_sickle",
+    "reignitedutilities:netherite_sickle"
+  ]
+}
