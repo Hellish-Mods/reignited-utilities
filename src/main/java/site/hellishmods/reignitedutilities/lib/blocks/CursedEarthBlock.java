@@ -23,7 +23,7 @@ public class CursedEarthBlock extends Block {
     public static final IntegerProperty SPREADING_DISTANCE_LEFT = IntegerProperty.create("spread", 0, MAX_DISTANCE);
     
     public CursedEarthBlock() {
-        super(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.DIRT).sound(SoundType.STONE)); // TODO: loot table
+        super(AbstractBlock.Properties.copy(net.minecraft.block.Blocks.DIRT).sound(SoundType.GRASS)); // TODO: loot table
     }
     @Override
     protected void createBlockStateDefinition(StateContainer.Builder<Block, BlockState> builder) {
@@ -35,7 +35,7 @@ public class CursedEarthBlock extends Block {
     }
     @Override
     public void animateTick(BlockState state, World world, BlockPos pos, Random random) { // TODO: a config option to disable particles?
-        for (int i = 0; i < random.ints(5, 20).findFirst().getAsInt(); i++) world.addParticle(ParticleTypes.SMOKE, pos.getX()+random.nextDouble(), pos.getY()+.5, pos.getZ()+random.nextDouble(), 0, .05, 0);
+        for (int i = 0; i < random.ints(5, 30).findFirst().getAsInt(); i++) world.addParticle(ParticleTypes.SMOKE, pos.getX()+random.nextDouble(), pos.getY()+.95, pos.getZ()+random.nextDouble(), .025 * random.nextDouble(), .05 * random.nextDouble(), .025 * random.nextDouble());
     }
     
     @Override
