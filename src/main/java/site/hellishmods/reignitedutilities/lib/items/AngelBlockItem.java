@@ -4,8 +4,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
+import net.minecraft.util.*;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
@@ -30,8 +29,13 @@ public class AngelBlockItem extends BlockItem {
     @Override
     public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
         if (player.pick(4, 0, false).getType()==RayTraceResult.Type.MISS) {
-            world.setBlock(new BlockPos(player.pick(2, 0, false).getLocation()), getBlock().defaultBlockState(), Constants.BlockFlags.DEFAULT);
-            if (!player.isCreative()) player.getItemInHand(hand).shrink(1);
+            ItemStack stack = player.getItemInHand(hand);
+            if (!world.isClientSide()) {
+                world.setBlock(new BlockPos(player.pick(2, 0, false).getLocation()), getBlock().defaultBlockState(), Constants.BlockFlags.DEFAULT);
+                world.playSound(null, player, SoundEvents.STONE_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                if (!player.isCreative()) stack.shrink(1);
+            }
+            return new ActionResult<>(ActionResultType.SUCCESS, stack);
         }
 
         return super.use(world, player, hand);
