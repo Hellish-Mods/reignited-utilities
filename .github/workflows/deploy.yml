@@ -48,8 +48,15 @@ jobs:
       - run: chmod +X gradlew
 
       - uses: gradle/wrapper-validation-action@v3
-        with:
-          arguments: build --stacktrace --no-daemon
+      - uses: gradle/gradle-build-action@v3
+
+      - run: rm -rf src/generated
+        if: github.event.inputs.assets == 'true'
+      - run: ./gradlew runData
+        if: github.event.inputs.assets == 'true'
+        continue-on-error: true
+
+      - run: VERSION="${{ github.event.inputs.version }}" ./gradlew build
 
       - run: |
           echo "DEPS<<EOF" >> $GITHUB_ENV
