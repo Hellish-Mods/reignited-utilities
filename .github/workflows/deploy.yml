@@ -35,15 +35,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 30
 
-      - run: rm -rf src/generated
-        if: github.event.inputs.assets == 'true'
-      - run: ./gradlew runData
-        if: github.event.inputs.assets == 'true'
-        continue-on-error: true
-      - run: VERSION="${{ github.event.inputs.version }}" ./gradlew build
-      
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '8'
+          cache: gradle
+
+      - run: chmod +X gradlew
+
+      - uses: gradle/wrapper-validation-action@v3
+        with:
+          arguments: build --stacktrace --no-daemon
+
       - run: |
           echo "DEPS<<EOF" >> $GITHUB_ENV
           echo "${{ github.event.inputs.deps }}" | sed "s/,/\n/g" >> $GITHUB_ENV
