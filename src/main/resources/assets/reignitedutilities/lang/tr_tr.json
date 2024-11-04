@@ -1,0 +1,138 @@
+{
+    "itemGroup.reignitedutilities": "Reignited Utilities",
+
+	"item.reignitedutilities.manual": "Reignited Utilities Manueli",
+	
+	"item.reignitedutilities.unstable_ingot": "Dengesiz Külçe",
+	"item.reignitedutilities.stable_ingot": "Dengeli-`Dengesiz Külçe`",
+	"item.reignitedutilities.stable_nugget": "Dengeli-`Dengesiz Külçe Tanesi`",
+
+	"block.reignitedutilities.compressed.1": "Sıkıştırılmış",
+	"block.reignitedutilities.compressed.2": "İki Kere Sıkıştırılmış",
+	"block.reignitedutilities.compressed.3": "Üç Kere Sıkıştırılmış",
+	"block.reignitedutilities.compressed.4": "Dört Kere Sıkıştırılmış",
+	"block.reignitedutilities.compressed.5": "Beş Kere Sıkıştırılmış",
+	"block.reignitedutilities.compressed.6": "Altı Kere Sıkıştırılmış",
+	"block.reignitedutilities.compressed.7": "Yedi Kere Sıkıştırılmış",
+	"block.reignitedutilities.compressed.8": "Sekiz Kere Sıkıştırılmış",
+
+	"item.reignitedutilities.glasscutter": "Cam Kesici",
+	"item.reignitedutilities.endershard": "Ender Parcaşı",
+	"block.reignitedutilities.red_orchid": "Kırmızı Orkide",
+
+	"item.reignitedutilities.redstone_crystal": "Yankılanan Kazıltaş Kristali",
+	"item.reignitedutilities.redstone_gear": "Kızıltaş Dişlisi",
+
+	"item.reignitedutilities.drop_of_evil": "Kötülük Damlası",
+
+	"block.reignitedutilities.solar_panel": "Güneş Paneli",
+	"block.reignitedutilities.lunar_panel": "Ay Paneli",
+	"block.reignitedutilities.wind_mill": "Rüzgar Değirmeni",
+	"block.reignitedutilities.fire_mill": "Ateş Değirmeni",
+	"block.reignitedutilities.creative_mill": "Kreatif Değirmeni",
+	"block.reignitedutilities.manual_mill": "Manuel Değirmen",
+	"block.reignitedutilities.dragon_egg_mill": "Ejderha Yumurtası Değirmeni",
+
+	"block.reignitedutilities.chunk_loading_ward": "Chunk Yükleme Koğusu",
+
+	"item.reignitedutilities.wood_sickle": "Odun Orak",
+	"item.reignitedutilities.stone_sickle": "Taş Orak",
+	"item.reignitedutilities.iron_sickle": "Demir Orak",
+	"item.reignitedutilities.gold_sickle": "Altın Orak",
+	"item.reignitedutilities.diamond_sickle": "Elmas Orak",
+	"item.reignitedutilities.netherite_sickle": "Netherit Orak",
+
+	"block.reignitedutilities.polished_stone": "Cilalı Taş",
+	"block.reignitedutilities.stoneburnt": "Yanmış Taş",
+	"block.reignitedutilities.stoneburnt_chiseled": "Yontulmuş Yanmış Taş",
+	"block.reignitedutilities.stoneburnt_cross": "Yanmış Taş Kesişeni",
+	"block.reignitedutilities.truchet": "Troşet",
+
+	"item.reignitedutilities.sun_crystal": "Güneş Kristali",
+	"item.reignitedutilities.sun_crystal.description": "Boş bir Güneş Kristali yapıp yere atın, Güneş Işığı ile dolmaya başlıyacaktır.",
+
+	"block.reignitedutilities.wood_spike": "Odun Başak",
+	"block.reignitedutilities.stone_spike": "Taş Başak",
+	"block.reignitedutilities.iron_spike": "Demir Başak",
+	"block.reignitedutilities.gold_spike": "Altın Başak",
+	"block.reignitedutilities.diamond_spike": "Elmas Başak",
+	"block.reignitedutilities.creative_spike": "Yaratıcı Başak",
+
+	"block.reignitedutilities.angel_block": "Melek Bloğu",
+
+	"block.reignitedutilities.overworld_portal": "Dünya Portalı",
+	"block.reignitedutilities.deep_dark_portal": "Deep Dark Portalı",
+
+	"block.reignitedutilities.slightly_larger_chest": "Azcık Daha Büyük Sandık",
+
+	"item.reignitedutilities.biome_marker": "Biyom İşaretleyicisi",
+
+	"item.reignitedutilities.unstable_ingot.tooltip.active": "%s İçinde Patlıyacak",
+	"item.reignitedutilities.unstable_ingot.tooltip.inactive": "ERROR: Elmas İle Böl\nBu Külçe Çok Dengesizdir Ve 10 Saniye Sonra Patlar.\nYere Atılırsa veya Çalışma Masası Ekranından Çıkılırsa Patlar.\nBide Bu Külçeler Stack'lanmazlar\n\n- Hazır Değilseniz, Yapmayın. -"
+
+	"item.reignitedutilities.gp_display_item.tooltip": "Grid Gücü: %d / %d",
+	"block.reignitedutilities.gp_producing.tooltip": "Verilen Güç: %d GG",
+
+	"effect.reignitedutilities.doom": "Kıyamet",
+	"effect.reignitedutilities.gravity": "Yer Çekimi",
+	"effect.reignitedutilities.second_chance": "İkinci Şans",
+	"effect.reignitedutilities.greek_fire": "Yunan Ateşi",
+	"effect.reignitedutilities.fizzy_lifting": "Fışırtılı Kaldırma",
+	"effect.reignitedutilities.relapse": "Nüksetme",
+	"effect.reignitedutilities.love": "Sevgi",
+	"effect.reignitedutilities.purging": "Arındırma",
+
+	"item.minecraft.potion.effect.doom_potion": "Kıyamet İksiri",
+	"item.minecraft.splash_potion.effect.doom_potion": "Patlayıcı Kıyamet İksiri",
+	"item.minecraft.lingering_potion.effect.doom_potion": "Kalıcı Kıyamet İksiri",
+	"item.minecraft.tipped_arrow.effect.doom_potion": "Kıyamet Oku",
+	"item.minecraft.potion.effect.gravity_potion": "Yerçekimi İksiri",
+	"item.minecraft.splash_potion.effect.gravity_potion": "Patlayıcı Yerçekimi İksiri",
+	"item.minecraft.lingering_potion.effect.gravity_potion": "Kalıcı Yerçekimi İksiri",
+	"item.minecraft.tipped_arrow.effect.gravity_potion": "Yerçekimi Oku",
+	"item.minecraft.potion.effect.long_gravity_potion": "Yerçekimi İksiri",
+	"item.minecraft.splash_potion.effect.long_gravity_potion": "Patlayıcı Yerçekimi İksiri",
+	"item.minecraft.lingering_potion.effect.long_gravity_potion": "Kalıcı Yerçekimi İksiri",
+	"item.minecraft.tipped_arrow.effect.long_gravity_potion": "Yerçekimi Oku",
+	"item.minecraft.potion.effect.second_chance_potion": "İkinci Şans İksiri",
+	"item.minecraft.splash_potion.effect.second_chance_potion": "Patlayıcı İkinci Şans İksiri",
+	"item.minecraft.lingering_potion.effect.second_chance_potion": "Kalıcı İkinci Şans İksiri",
+	"item.minecraft.tipped_arrow.effect.second_chance_potion": "İkinci Şans Oku",
+	"item.minecraft.potion.effect.greek_fire_potion": "Yunan Ateşi İksiri",
+	"item.minecraft.splash_potion.effect.greek_fire_potion": "Patlayıcı Yunan Ateşi İksiri",
+	"item.minecraft.lingering_potion.effect.greek_fire_potion": "Kalıcı Yunan Ateşi İksiri",
+	"item.minecraft.tipped_arrow.effect.greek_fire_potion": "Yunan Ateşi Oku",
+	"item.minecraft.potion.effect.oily_potion": "Yağlı İksiri",
+	"item.minecraft.splash_potion.effect.oily_potion": "Patlayıcı Yağlı İksiri",
+	"item.minecraft.lingering_potion.effect.oily_potion": "Kalıcı Yağlı İksiri",
+	"item.minecraft.potion.effect.fizzy_lifting_potion": "Fışırtılı Kaldırma İksiri",
+	"item.minecraft.splash_potion.effect.fizzy_lifting_potion": "Patlayıcı Fışırtılı Kaldırma İksiri",
+	"item.minecraft.lingering_potion.effect.fizzy_lifting_potion": "Kalıcı Fışırtılı Kaldırma İksiri",
+	"item.minecraft.tipped_arrow.effect.fizzy_lifting_potion": "Fışırtılı Kaldırma Oku",
+	"item.minecraft.potion.effect.relapse_potion": "Nüksetme İksiri",
+	"item.minecraft.splash_potion.effect.relapse_potion": "Patlayıcı Nüksetme İksiri",
+	"item.minecraft.lingering_potion.effect.relapse_potion": "Kalıcı Nüksetme İksiri",
+	"item.minecraft.tipped_arrow.effect.relapse_potion": "Nüksetme Oku",
+	"item.minecraft.potion.effect.love_potion": "Sevgi İksiri",
+	"item.minecraft.splash_potion.effect.love_potion": "Patlayıcı Sevgi İksiri",
+	"item.minecraft.lingering_potion.effect.love_potion": "Kalıcı Sevgi İksiri",
+	"item.minecraft.tipped_arrow.effect.love_potion": "Sevgi Oku",
+	"item.minecraft.potion.effect.purging_potion": "Arındırma İksiri",
+	"item.minecraft.splash_potion.effect.purging_potion": "Patlayıcı Arındırma İksiri",
+	"item.minecraft.lingering_potion.effect.purging_potion": "Kalıcı Arındırma İksiri",
+	"item.minecraft.tipped_arrow.effect.purging_potion": "AArındırma Oku",
+
+	"potion_tooltip.reignitedutilities.doom": "60 Saniyede Öldürür.",
+	"potion_tooltip.reignitedutilities.gravity": "Yerçekimini Değistirir.",
+	"potion_tooltip.reignitedutilities.second_chance": "Ölümden Kurtarır Ama Sadece Birkere.",
+	"potion_tooltip.reignitedutilities.greek_fire": "Söndürülemeyen Bir Ateş Yaratır.",
+	"potion_tooltip.reignitedutilities.fizzy_lifting": "Kolaylık Hissi Verir.",
+	"potion_tooltip.reignitedutilities.relapse": "Negatif İksir Efekleri Tedavi Edilemez.",
+	"potion_tooltip.reignitedutilities.love": "Hayvanları Çiftleştirmede Yardım Eder.",
+	"potion_tooltip.reignitedutilities.purging": "Bütün İksir Efeklerini Yokeder, ama bir fiyatı vardır.",
+
+	"chat.reignitedutilities.doom": "Ölüm getirici %d Saniyede Gelicek.",
+	"chat.reignitedutilities.second_chance": "İkinci Şans!",
+
+	"death.attack.doom": "%1$s Kıyamet'e Koptu"
+}
