@@ -12,6 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.PlantType;
 import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.event.world.BlockEvent.CropGrowEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -32,7 +33,7 @@ public class RedOrchidBlock extends CropsBlock {
 
     @Override
     protected boolean mayPlaceOn(BlockState state, IBlockReader reader, BlockPos pos) {
-        return state.is(Blocks.REDSTONE_ORE); // TODO: fix
+        return state.is(Blocks.REDSTONE_ORE);
     }
 
     @SubscribeEvent
@@ -40,11 +41,13 @@ public class RedOrchidBlock extends CropsBlock {
         if (!event.getState().getBlock().equals(this) || !isMaxAge(event.getState())) return;
         RedstoneOreBlock.interact(event.getWorld().getBlockState(getBlockBelow(event.getPos())), (World)event.getWorld(), getBlockBelow(event.getPos()));
     }
+
     @SubscribeEvent
     public void onBoneMeal(BonemealEvent event) { // TODO: fix
         if (!event.getBlock().getBlock().equals(this) || getAge(event.getBlock())<getMaxAge()-1) return;
         RedstoneOreBlock.interact(event.getWorld().getBlockState(getBlockBelow(event.getPos())), event.getWorld(), getBlockBelow(event.getPos()));
     }
+
     @Override
     @SuppressWarnings("deprecation")
     public void neighborChanged(BlockState state, World world, BlockPos pos, Block block, BlockPos posBelow, boolean isMoving) {
@@ -52,5 +55,10 @@ public class RedOrchidBlock extends CropsBlock {
         if (!posBelow.equals(pos.offset(0, -1, 0)) || !isMaxAge(state)) return;
 
         RedstoneOreBlock.interact(world.getBlockState(posBelow), world, posBelow);
+    }
+
+    @Override
+    public PlantType getPlantType(IBlockReader world, BlockPos pos) {
+        return PlantType.get("none");
     }
 }
